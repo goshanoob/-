@@ -1,0 +1,21 @@
+﻿ table {
+    width: 100%; /* Ширина таблицы */
+   }
+   td {
+    width: 40%;
+    padding: 5px; /* Поля в ячейках */
+   }
+p{
+    text-indent: 20px;
+}
+
+.x3dmodel{float:left;}
+
+
+path, circle{fill:black; stroke-width:1; stroke:rgb(0,0,0);}
+line {stroke-width:1; stroke:rgb(0,0,0)}
+.индекс{font-size:5; stroke:none; fill:black;}
+.началоВектора{font-size:9; fill:black; stroke:none; text-anchor:middle;}
+.конецВектора{font-size:9; fill:black; stroke:none; text-anchor:middle;}
+text{font-size:9; fill:black; stroke:none; text-anchor:middle;}
+#qq{transform: translate(0,100);}
