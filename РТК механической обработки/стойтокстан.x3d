@@ -1,0 +1,11 @@
+<X3D version="3.2">
+ <Scene> <background skyColor="1 1 1"/>
+  <Viewpoint position="0 0 0"/>
+   <Inline url="XYZ.x3d"/>
+            
+<Transform translation="0 0 0" rotation="1 0 0 1.57"><!-- стойка вращающегося вала -->
+      <Shape><Cylinder radius="0.4" height="0.8"/><Appearance> <Material diffuseColor="1,0,1"/></Appearance></Shape></Transform>
+  <Transform translation="0,0.1,-0.4" rotation="1 0 0 1.57"><!-- вращающийся вал -->
+      <Shape> <Cylinder radius="0.17" height="0.3"/> <Appearance><Material diffuseColor="0,1,0"/></Appearance></Shape></Transform>
+ </Scene>
+</X3D>

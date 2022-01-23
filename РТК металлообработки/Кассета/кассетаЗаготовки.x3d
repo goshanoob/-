@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<X3D version='3.2'> <Scene> <Background skyColor="1 1 1"/>  
+ <Viewpoint position="0 0 1"/>
+ <Transform DEF="тело_0" translation="0 0 0" >
+  <Inline url="кассета.x3d"/>
+  <Transform DEF="заготовка_1" translation="-0.0325 0.035 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>
+  </Transform>
+  <Transform DEF="заготовка_2" translation="-0.0325 0.085 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>
+  </Transform>
+  <Transform DEF="заготовка_3" translation="-0.0325 0.135 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>
+  </Transform>
+  <Transform DEF="заготовка_4" translation="0.0325 0.035 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>
+  </Transform>
+  <Transform DEF="заготовка_5" translation="0.0325 0.085 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>
+  </Transform>
+  <Transform DEF="заготовка_6" translation="0.0325 0.135 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>
+  </Transform>
+</Transform>
+<EXPORT localDEF="заготовка_3" AS="заготовка1"/>
+<EXPORT localDEF="заготовка_2" AS="заготовка2"/>
+<EXPORT localDEF="заготовка_1" AS="заготовка3"/>
+<EXPORT localDEF="заготовка_6" AS="заготовка4"/>
+<EXPORT localDEF="заготовка_5" AS="заготовка5"/>
+<EXPORT localDEF="заготовка_4" AS="заготовка6"/>
+</Scene></X3D>

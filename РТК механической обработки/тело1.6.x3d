@@ -1,0 +1,38 @@
+<X3D version="3.2">
+ <Scene> <background skyColor="1 1 1"/>
+  <Viewpoint position="0 0 0"/>
+   <Inline url="XYZ.x3d"/>
+     		<Transform translation="0 0 0" rotation="0 1 0 1.57">
+        	<Shape>
+ 
+          <Appearance DEF="цвет6">
+
+                <Material diffuseColor='3 2 0'></Material>
+ 
+          </Appearance>
+
+          
+  
+     		</Shape>
+                <Transform translation="0 0.15 0">
+          <Shape>
+ 
+          <Appearance USE="цвет6"/>
+
+            <Box size="0.1 0.5 0.1"></Box>
+  
+        </Shape>
+          <Transform translation="0 0.25 0"> 
+          <Shape>
+ 
+          <Appearance USE="цвет6"/>
+
+            <Box size="0.4 0.05 0.2"></Box>
+  
+        </Shape>
+        
+  </Transform>
+  </Transform>
+	</Transform>
+ </Scene>
+</X3D>

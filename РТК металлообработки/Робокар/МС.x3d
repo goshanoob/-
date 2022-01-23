@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<X3D version='3.2'> <Scene> <Background skyColor="1 1 1"></Background>  
+ <Viewpoint position="0 0 4"></Viewpoint>
+ <Transform DEF="тело_0" translation="0 0 0" >
+   <Transform translation="0.18 0 0" rotation="0 1 0 0">
+  <Shape> <Box size="0.4 0.01 0.3" />
+   <Appearance> <Material diffuseColor="0 1 0"> </Material> </Appearance> 
+  </Shape>
+ </Transform> 
+ <Transform translation="0.33 -0.015 -0.16" rotation="1 0 0 1.57">
+  <Shape> <Cylinder radius="0.06" height="0.02" ></Cylinder>
+   <Appearance> <Material diffuseColor="0 1 0"></Material > </Appearance> 
+  </Shape>
+ </Transform> 
+ <Transform translation="0.33 -0.015 0.16" rotation="1 0 0 1.57">
+  <Shape> <Cylinder radius="0.06" height="0.02" ></Cylinder>
+   <Appearance> <Material diffuseColor="0 1 0"></Material > </Appearance> 
+  </Shape>
+ </Transform> 
+  <Transform DEF="тело_1" translation="0 0 0" rotation="0 1 0 0">
+    <Transform translation="0 -0.03 0" rotation="0 0 1 0">
+  <Shape> <Cylinder radius="0.02" height="0.055"></Cylinder>
+   <Appearance> <Material diffuseColor="0 1 0"></Material > </Appearance> 
+  </Shape>
+ </Transform> 
+ <Transform translation="-0.05 -0.045 -0.01" rotation="0 1 0 0">
+  <Shape> <Box size="0.1 0.01 0.01" ></Box>
+   <Appearance> <Material diffuseColor="0 1 0"></Material > </Appearance> 
+  </Shape>
+ </Transform> 
+ <Transform translation="-0.05 -0.045 0.01" rotation="0 1 0 0">
+  <Shape> <Box size="0.1 0.01 0.01" ></Box>
+   <Appearance> <Material diffuseColor="0 1 0"></Material > </Appearance> 
+  </Shape>
+ </Transform> 
+ <Transform translation="-0.075 -0.045 0" rotation="1 0 0 1.57">
+  <Shape> <Cylinder radius="0.03" height="0.02" ></Cylinder>
+   <Appearance> <Material diffuseColor="0 1 0"></Material > </Appearance> 
+  </Shape>
+ </Transform> 
+</Transform></Transform>
+</Scene></X3D>

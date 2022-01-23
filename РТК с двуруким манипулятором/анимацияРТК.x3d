@@ -1,0 +1,538 @@
+<X3D version="3.2">
+   <Scene>
+      <Background skyColor="1 1 1"></Background>
+      <Viewpoint position="0 0 4"></Viewpoint>
+      <Transform DEF="тело_0">
+         <Inline url="тело_0.x3d"></Inline>
+         <Transform DEF="тело_1" translation="-1.4,1,0">
+            <Inline url="тело_1.x3d"></Inline>
+         </Transform>
+         <Transform DEF="тело_2" translation="-0.18,1,-1.215">
+            <Inline url="тело_2.x3d"></Inline>
+         </Transform>
+         <Transform DEF="тело_3" translation="-0.18,1.5,-1.215">
+            <Inline url="тело_3.x3d"></Inline>
+         </Transform>
+         <Transform DEF="тело_4" translation="0,1,0">
+            <Inline url="тело_4.x3d"></Inline>
+            <Transform DEF="тело_5" translation="0,0,0">
+               <Inline url="тело_5.x3d"></Inline>
+               <Transform DEF="тело_6" translation="-0.16,0,-0.615">
+                  <Inline url="тело_6.x3d"></Inline>
+                  <Transform DEF="тело_7" translation="0,0,0">
+                     <Inline url="тело_7.x3d"></Inline>
+                     <Transform DEF="тело_8" translation="0,0.08,-0.1">
+                        <Inline url="тело_8.x3d"></Inline>
+                     </Transform>
+                     <Transform DEF="тело_9" translation="0,-0.08,-0.1">
+                        <Inline url="тело_9.x3d"></Inline>
+                     </Transform>
+                  </Transform>
+               </Transform>
+               <Transform DEF="тело_10" translation="0.16,0,-0.615">
+                  <Inline url="тело_10.x3d"></Inline>
+                  <Transform DEF="тело_11" translation="0,0,0">
+                     <Inline url="тело_11.x3d"></Inline>
+                     <Transform DEF="тело_12" translation="0,0.08,-0.1">
+                        <Inline url="тело_12.x3d"></Inline>
+                     </Transform>
+                     <Transform DEF="тело_13" translation="0,-0.08,-0.1">
+                        <Inline url="тело_13.x3d"></Inline>
+                     </Transform>
+                  </Transform>
+               </Transform>
+            </Transform>
+         </Transform>
+         <Transform DEF="тело_14" translation="2.35,1,-0.95">
+            <Inline url="тело_14.x3d"></Inline>
+            <Transform DEF="тело_15" translation="0,0,0">
+               <Inline url="тело_15.x3d"></Inline>
+               <Transform DEF="тело_16" translation="-0.16,0,0.615">
+                  <Inline url="тело_16.x3d"></Inline>
+                  <Transform DEF="тело_17" translation="0,0,0">
+                     <Inline url="тело_17.x3d"></Inline>
+                     <Transform DEF="тело_18" translation="0,0.08,0.1">
+                        <Inline url="тело_18.x3d"></Inline>
+                     </Transform>
+                     <Transform DEF="тело_19" translation="0,-0.08,0.1">
+                        <Inline url="тело_19.x3d"></Inline>
+                     </Transform>
+                  </Transform>
+               </Transform>
+               <Transform DEF="тело_20" translation="0.16,0,0.615">
+                  <Inline url="тело_20.x3d"></Inline>
+                  <Transform DEF="тело_21" translation="0,0,0">
+                     <Inline url="тело_21.x3d"></Inline>
+                     <Transform DEF="тело_22" translation="0,0.08,0.1">
+                        <Inline url="тело_22.x3d"></Inline>
+                     </Transform>
+                     <Transform DEF="тело_23" translation="0,-0.08,0.1">
+                        <Inline url="тело_23.x3d"></Inline>
+                     </Transform>
+                  </Transform>
+               </Transform>
+            </Transform>
+         </Transform>
+         <Transform DEF="тело_24" translation="1.215,0.9,0">
+            <Inline url="тело_24.x3d"></Inline>
+         </Transform>
+         <Transform DEF="тело_25" translation="1.715,0.9,0">
+            <Inline url="тело_25.x3d"></Inline>
+         </Transform>
+         <Transform DEF="тело_26" translation="1.715,0.9,0">
+            <Inline url="тело_26.x3d"></Inline>
+         </Transform>
+         <Transform DEF="тело_27" translation="1.715,1.3,0">
+            <Inline url="тело_27.x3d"></Inline>
+         </Transform>
+         <Transform DEF="тело_28" translation="2.35,0.9,0.4">
+            <Inline url="тело_28.x3d"></Inline>
+         </Transform>
+         <Transform DEF="тело_29" translation="2.35,0.9,0.4">
+            <Inline url="тело_29.x3d"></Inline>
+         </Transform>
+         <Transform DEF="тело_30" translation="2.35,0.9,0.4">
+            <Inline url="тело_30.x3d"></Inline>
+         </Transform>
+         <Transform DEF="тело_31" translation="2.35,1.3,0.4">
+            <Inline url="тело_31.x3d"></Inline>
+         </Transform>
+      </Transform>
+      <PositionInterpolator DEF="аниматор_ПД_1_1_1" key=", .0000, 1.0000" keyValue=", -1.9 1 0, -1.4 1 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_1_1_1" toNode="тело_1"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_1_4" key=", .0000, .1667, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 1 0, 0 1 0, 0 1 0, 0 1 0, 0 1 0, 0 1.1 0, 0 1.1 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_1_4" toNode="тело_4"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_3_1_5" key=", .0000, .1667, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 1 0 -1.7016674999999999, 0 1 0 0, 0 1 0 1.7016674999999999, 0 1 0 1.7016674999999999, 0 1 0 1.7016674999999999, 0 1 0 1.7016674999999999, 0 1 0 1.7016674999999999"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_3_1_5" toNode="тело_5"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_1_6" key=", .0000, .1667, .3333, .5556, .6667, .7778, 1.0000" keyValue=", -0.16 0 -0.615, -0.16 0 -0.615, -0.16 0 -0.615, -0.16 0 -0.615, -0.16 0 -0.615, -0.16 0 -0.615, -0.16 0 -0.615"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_1_6" toNode="тело_6"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_3_1_7" key=", .0000, .1667, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_3_1_7" toNode="тело_7"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_1_8" key=", .0000, .1667, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 0.08 -0.1, 0 0.08 -0.1, 0 0.08 -0.1, 0 0.08 -0.1, 0 0.08 -0.1, 0 0.08 -0.1, 0 0.08 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_1_8" toNode="тело_8"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_1_9" key=", .0000, .1667, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 -0.08 -0.1, 0 -0.08 -0.1, 0 -0.08 -0.1, 0 -0.08 -0.1, 0 -0.08 -0.1, 0 -0.08 -0.1, 0 -0.08 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_1_9" toNode="тело_9"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_1_10" key=", .0000, .1667, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0.16 0 -0.615, 0.16 0 -0.615, 0.16 0 -0.615, 0.16 0 -1.215, 0.16 0 -1.215, 0.16 0 -1.215, 0.16 0 -0.615"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_1_10" toNode="тело_10"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_3_1_11" key=", .0000, .1667, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 0 1 0, 0 0 1 0, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_3_1_11" toNode="тело_11"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_1_12" key=", .0000, .1667, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 0.08 -0.1, 0 0.08 -0.1, 0 0.08 -0.1, 0 0.08 -0.1, 0 0.04 -0.1, 0 0.04 -0.1, 0 0.04 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_1_12" toNode="тело_12"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_1_13" key=", .0000, .1667, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 -0.08 -0.1, 0 -0.08 -0.1, 0 -0.08 -0.1, 0 -0.08 -0.1, 0 -0.04 -0.1, 0 -0.04 -0.1, 0 -0.04 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_1_13" toNode="тело_13"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_2_1_2" key=", .0000, 1.0000" keyValue=", 1 0 0 0, 1 0 0 0"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_2_1_2" toNode="тело_2"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_2_1_3" key=", .0000, 1.0000" keyValue=", -0.18 1.5 -1.215, -1.38 1.5 -1.215"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_2_1_3" toNode="тело_3"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_2_4" key=", .0000, 1.0000" keyValue=", 0 1.1 0, 0 1.1 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_2_4" toNode="тело_4"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_3_2_5" key=", .0000, 1.0000" keyValue=", 0 1 0 1.7016674999999999, 0 1 0 0"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_3_2_5" toNode="тело_5"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_2_6" key=", .0000, 1.0000" keyValue=", -0.16 0 -0.615, -0.16 0 -0.615"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_2_6" toNode="тело_6"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_3_2_7" key=", .0000, 1.0000" keyValue=", 0 0 1 0, 0 0 1 0"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_3_2_7" toNode="тело_7"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_2_8" key=", .0000, 1.0000" keyValue=", 0 0.08 -0.1, 0 0.08 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_2_8" toNode="тело_8"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_2_9" key=", .0000, 1.0000" keyValue=", 0 -0.08 -0.1, 0 -0.08 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_2_9" toNode="тело_9"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_2_10" key=", .0000, 1.0000" keyValue=", 0.16 0 -0.615, 0.16 0 -0.615"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_2_10" toNode="тело_10"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_3_2_11" key=", .0000, 1.0000" keyValue=", 0 0 1 1.57077, 0 0 1 0"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_3_2_11" toNode="тело_11"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_2_12" key=", .0000, 1.0000" keyValue=", 0 0.04 -0.1, 0 0.04 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_2_12" toNode="тело_12"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_2_13" key=", .0000, 1.0000" keyValue=", 0 -0.04 -0.1, 0 -0.04 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_2_13" toNode="тело_13"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_3_4" key=", .0000, .2000, .3000, .3500, .5500, .7000, .8000, 1.0000" keyValue=", 0 1.1 0, 0 1.1 0, 0 1.1 0, 0 1.1 0, 0 1.1 0, 0 1.1 0, 0 1.1 0, 0 1.1 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_3_4" toNode="тело_4"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_3_3_5" key=", .0000, .2000, .3000, .3500, .5500, .7000, .8000, 1.0000" keyValue=", 0 1 0 0, 0 1 0 0, 0 1 0 0, 0 1 0 -0.017453, 0 1 0 -0.017453, 0 1 0 0.244342, 0 1 0 0.244342, 0 1 0 0.244342"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_3_3_5" toNode="тело_5"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_3_6" key=", .0000, .2000, .3000, .3500, .5500, .7000, .8000, 1.0000" keyValue=", -0.16 0 -0.615, -0.16 0 -1.1215, -0.16 0 -1.1215, -0.16 0 -1.1215, -0.16 0 -0.615, -0.16 0 -0.615, -0.16 0 -0.615, -0.16 0 -0.615"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_3_6" toNode="тело_6"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_3_3_7" key=", .0000, .2000, .3000, .3500, .5500, .7000, .8000, 1.0000" keyValue=", 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_3_3_7" toNode="тело_7"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_3_8" key=", .0000, .2000, .3000, .3500, .5500, .7000, .8000, 1.0000" keyValue=", 0 0.08 -0.1, 0 0.08 -0.1, 0 0.04 -0.1, 0 0.04 -0.1, 0 0.04 -0.1, 0 0.04 -0.1, 0 0.04 -0.1, 0 0.04 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_3_8" toNode="тело_8"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_3_9" key=", .0000, .2000, .3000, .3500, .5500, .7000, .8000, 1.0000" keyValue=", 0 -0.08 -0.1, 0 -0.08 -0.1, 0 -0.04 -0.1, 0 -0.04 -0.1, 0 -0.04 -0.1, 0 -0.04 -0.1, 0 -0.04 -0.1, 0 -0.04 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_3_9" toNode="тело_9"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_3_10" key=", .0000, .2000, .3000, .3500, .5500, .7000, .8000, 1.0000" keyValue=", 0.16 0 -0.615, 0.16 0 -0.615, 0.16 0 -0.615, 0.16 0 -0.615, 0.16 0 -1.1215, 0.16 0 -1.1215, 0.16 0 -1.1215, 0.16 0 -0.615"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_3_10" toNode="тело_10"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_3_3_11" key=", .0000, .2000, .3000, .3500, .5500, .7000, .8000, 1.0000" keyValue=", 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_3_3_11" toNode="тело_11"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_3_12" key=", .0000, .2000, .3000, .3500, .5500, .7000, .8000, 1.0000" keyValue=", 0 0.04 -0.1, 0 0.04 -0.1, 0 0.04 -0.1, 0 0.04 -0.1, 0 0.04 -0.1, 0 0.04 -0.1, 0 0.08 -0.1, 0 0.08 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_3_12" toNode="тело_12"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_3_13" key=", .0000, .2000, .3000, .3500, .5500, .7000, .8000, 1.0000" keyValue=", 0 -0.04 -0.1, 0 -0.04 -0.1, 0 -0.04 -0.1, 0 -0.04 -0.1, 0 -0.04 -0.1, 0 -0.04 -0.1, 0 -0.08 -0.1, 0 -0.08 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_3_13" toNode="тело_13"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_4_4" key=", .0000, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 1.1 0, 0 1.1 0, 0 1.1 0, 0 1 0, 0 1 0, 0 1 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_4_4" toNode="тело_4"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_3_4_5" key=", .0000, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 1 0 0.244342, 0 1 0 -1.7016674999999999, 0 1 0 -1.7016674999999999, 0 1 0 -1.7016674999999999, 0 1 0 -1.7016674999999999, 0 1 0 -1.7016674999999999"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_3_4_5" toNode="тело_5"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_4_6" key=", .0000, .3333, .5556, .6667, .7778, 1.0000" keyValue=", -0.16 0 -0.615, -0.16 0 -0.615, -0.16 0 -1.215, -0.16 0 -1.215, -0.16 0 -1.215, -0.16 0 -0.615"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_4_6" toNode="тело_6"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_3_4_7" key=", .0000, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 0 1 0, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_3_4_7" toNode="тело_7"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_4_8" key=", .0000, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 0.04 -0.1, 0 0.04 -0.1, 0 0.04 -0.1, 0 0.04 -0.1, 0 0.08 -0.1, 0 0.08 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_4_8" toNode="тело_8"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_4_9" key=", .0000, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 -0.04 -0.1, 0 -0.04 -0.1, 0 -0.04 -0.1, 0 -0.04 -0.1, 0 -0.08 -0.1, 0 -0.08 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_4_9" toNode="тело_9"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_4_10" key=", .0000, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0.16 0 -0.615, 0.16 0 -0.615, 0.16 0 -0.615, 0.16 0 -0.615, 0.16 0 -0.615, 0.16 0 -0.615"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_4_10" toNode="тело_10"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_3_4_11" key=", .0000, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_3_4_11" toNode="тело_11"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_4_12" key=", .0000, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 0.08 -0.1, 0 0.08 -0.1, 0 0.08 -0.1, 0 0.08 -0.1, 0 0.08 -0.1, 0 0.08 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_4_12" toNode="тело_12"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_3_4_13" key=", .0000, .3333, .5556, .6667, .7778, 1.0000" keyValue=", 0 -0.08 -0.1, 0 -0.08 -0.1, 0 -0.08 -0.1, 0 -0.08 -0.1, 0 -0.08 -0.1, 0 -0.08 -0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_3_4_13" toNode="тело_13"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_1_24" key=", .0000, 1.0000" keyValue=", 1.215 0.9 0, 1.965 0.9 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_1_24" toNode="тело_24"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_1_25" key=", .0000, 1.0000" keyValue=", 1.715 0.9 0, 1.715 0.9 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_1_25" toNode="тело_25"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_1_26" key=", .0000, 1.0000" keyValue=", 1.715 0.9 0, 1.715 0.9 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_1_26" toNode="тело_26"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_1_27" key=", .0000, 1.0000" keyValue=", 1.715 1.3 0, 1.715 1.3 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_1_27" toNode="тело_27"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_2_24" key=", .0000, 1.0000" keyValue=", 1.965 0.9 0, 1.965 0.9 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_2_24" toNode="тело_24"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_2_25" key=", .0000, 1.0000" keyValue=", 1.715 0.9 0, 1.715 0.9 -0.04"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_2_25" toNode="тело_25"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_2_26" key=", .0000, 1.0000" keyValue=", 1.715 0.9 0, 1.715 0.9 0.04"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_2_26" toNode="тело_26"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_2_27" key=", .0000, 1.0000" keyValue=", 1.715 1.3 0, 1.715 1.3 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_2_27" toNode="тело_27"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_3_24" key=", .0000, .2000, .8000, 1.0000" keyValue=", 1.965 0.9 0, 1.965 0.9 0, 1.965 0.9 0, 1.965 0.9 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_3_24" toNode="тело_24"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_3_25" key=", .0000, .2000, .8000, 1.0000" keyValue=", 1.715 0.9 -0.04, 1.715 0.9 -0.04, 1.715 0.9 -0.04, 1.715 0.9 -0.04"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_3_25" toNode="тело_25"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_3_26" key=", .0000, .2000, .8000, 1.0000" keyValue=", 1.715 0.9 0.04, 1.715 0.9 0.04, 1.715 0.9 0.04, 1.715 0.9 0.04"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_3_26" toNode="тело_26"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_3_27" key=", .0000, .2000, .8000, 1.0000" keyValue=", 1.715 1.3 0, 1.715 1.1500000000000001 0, 1.715 1.1 0, 1.715 1.3 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_3_27" toNode="тело_27"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_4_24" key=", .0000, 1.0000" keyValue=", 1.965 0.9 0, 1.965 0.9 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_4_24" toNode="тело_24"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_4_25" key=", .0000, 1.0000" keyValue=", 1.715 0.9 -0.04, 1.715 0.9 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_4_25" toNode="тело_25"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_4_26" key=", .0000, 1.0000" keyValue=", 1.715 0.9 0.04, 1.715 0.9 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_4_26" toNode="тело_26"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_4_27" key=", .0000, 1.0000" keyValue=", 1.715 1.3 0, 1.715 1.3 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_4_27" toNode="тело_27"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_5_24" key=", .0000, 1.0000" keyValue=", 1.965 0.9 0, 2.415 0.9 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_5_24" toNode="тело_24"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_5_25" key=", .0000, 1.0000" keyValue=", 1.715 0.9 0, 1.715 0.9 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_5_25" toNode="тело_25"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_5_26" key=", .0000, 1.0000" keyValue=", 1.715 0.9 0, 1.715 0.9 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_5_26" toNode="тело_26"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_5_5_27" key=", .0000, 1.0000" keyValue=", 1.715 1.3 0, 1.715 1.3 0"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_5_5_27" toNode="тело_27"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_1_14" key=", .0000, .3333, .6667, 1.0000" keyValue=", 2.35 1 -0.95, 2.35 1 -0.95, 2.35 1 -0.95, 2.35 1.1 -0.95"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_1_14" toNode="тело_14"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_4_1_15" key=", .0000, .3333, .6667, 1.0000" keyValue=", 0 1 0 0, 0 1 0 0, 0 1 0 0, 0 1 0 0"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_4_1_15" toNode="тело_15"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_1_16" key=", .0000, .3333, .6667, 1.0000" keyValue=", -0.16 0 0.615, -0.16 0 0.95, -0.16 0 0.95, -0.16 0 0.95"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_1_16" toNode="тело_16"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_4_1_17" key=", .0000, .3333, .6667, 1.0000" keyValue=", 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_4_1_17" toNode="тело_17"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_1_18" key=", .0000, .3333, .6667, 1.0000" keyValue=", 0 0.08 0.1, 0 0.08 0.1, 0 0.04 0.1, 0 0.04 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_1_18" toNode="тело_18"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_1_19" key=", .0000, .3333, .6667, 1.0000" keyValue=", 0 -0.08 0.1, 0 -0.08 0.1, 0 -0.04 0.1, 0 -0.04 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_1_19" toNode="тело_19"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_1_20" key=", .0000, .3333, .6667, 1.0000" keyValue=", 0.16 0 0.615, 0.16 0 0.615, 0.16 0 0.615, 0.16 0 0.615"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_1_20" toNode="тело_20"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_4_1_21" key=", .0000, .3333, .6667, 1.0000" keyValue=", 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_4_1_21" toNode="тело_21"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_1_22" key=", .0000, .3333, .6667, 1.0000" keyValue=", 0 0.08 0.1, 0 0.08 0.1, 0 0.08 0.1, 0 0.08 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_1_22" toNode="тело_22"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_1_23" key=", .0000, .3333, .6667, 1.0000" keyValue=", 0 -0.08 0.1, 0 -0.08 0.1, 0 -0.08 0.1, 0 -0.08 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_1_23" toNode="тело_23"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_2_14" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 2.35 1.1 -0.95, 2.35 1.1 -0.95, 2.35 1 -0.95, 2.35 1 -0.95, 2.35 1.1 -0.95, 2.35 1.1 -0.95"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_2_14" toNode="тело_14"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_4_2_15" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0 1 0 0, 0 1 0 -0.122171, 0 1 0 -0.122171, 0 1 0 -0.122171, 0 1 0 -0.122171, 0 1 0 -0.122171"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_4_2_15" toNode="тело_15"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_2_16" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", -0.16 0 0.95, -0.16 0 0.95, -0.16 0 0.95, -0.16 0 0.95, -0.16 0 0.95, -0.16 0 0.95"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_2_16" toNode="тело_16"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_4_2_17" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_4_2_17" toNode="тело_17"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_2_18" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0 0.04 0.1, 0 0.04 0.1, 0 0.04 0.1, 0 0.04 0.1, 0 0.04 0.1, 0 0.04 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_2_18" toNode="тело_18"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_2_19" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0 -0.04 0.1, 0 -0.04 0.1, 0 -0.04 0.1, 0 -0.04 0.1, 0 -0.04 0.1, 0 -0.04 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_2_19" toNode="тело_19"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_2_20" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0.16 0 0.615, 0.16 0 0.615, 0.16 0 1.215, 0.16 0 1.215, 0.16 0 1.215, 0.16 0 0.615"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_2_20" toNode="тело_20"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_4_2_21" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_4_2_21" toNode="тело_21"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_2_22" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0 0.08 0.1, 0 0.08 0.1, 0 0.08 0.1, 0 0.04 0.1, 0 0.04 0.1, 0 0.04 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_2_22" toNode="тело_22"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_2_23" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0 -0.08 0.1, 0 -0.08 0.1, 0 -0.08 0.1, 0 -0.04 0.1, 0 -0.04 0.1, 0 -0.04 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_2_23" toNode="тело_23"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_6_3_28" key=", .0000, 1.0000" keyValue=", 2.35 0.9 0.4, 2.35 0.9 0.4"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_6_3_28" toNode="тело_28"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_6_3_29" key=", .0000, 1.0000" keyValue=", 2.39 0.9 0.4, 2.35 0.9 0.4"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_6_3_29" toNode="тело_29"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_6_3_30" key=", .0000, 1.0000" keyValue=", 2.31 0.9 0.4, 2.35 0.9 0.4"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_6_3_30" toNode="тело_30"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_6_3_31" key=", .0000, 1.0000" keyValue=", 2.35 1.3 0.4, 2.35 1.3 0.4"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_6_3_31" toNode="тело_31"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_3_14" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 2.35 1.1 -0.95, 2.35 1.1 -0.95, 2.35 1.1 -0.95, 2.35 1 -0.95, 2.35 1 -0.95, 2.35 1 -0.95"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_3_14" toNode="тело_14"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_4_3_15" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0 1 0 -0.122171, 0 1 0 0.122171, 0 1 0 0.122171, 0 1 0 0.122171, 0 1 0 0.122171, 0 1 0 0.122171"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_4_3_15" toNode="тело_15"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_3_16" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", -0.16 0 0.95, -0.16 0 0.95, -0.16 0 1.215, -0.16 0 1.215, -0.16 0 1.215, -0.16 0 0.615"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_3_16" toNode="тело_16"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_4_3_17" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_4_3_17" toNode="тело_17"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_3_18" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0 0.04 0.1, 0 0.04 0.1, 0 0.04 0.1, 0 0.04 0.1, 0 0.08 0.1, 0 0.08 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_3_18" toNode="тело_18"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_3_19" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0 -0.04 0.1, 0 -0.04 0.1, 0 -0.04 0.1, 0 -0.04 0.1, 0 -0.08 0.1, 0 -0.08 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_3_19" toNode="тело_19"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_3_20" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0.16 0 0.615, 0.16 0 0.615, 0.16 0 0.615, 0.16 0 0.615, 0.16 0 0.615, 0.16 0 0.615"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_3_20" toNode="тело_20"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_4_3_21" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_4_3_21" toNode="тело_21"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_3_22" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0 0.04 0.1, 0 0.04 0.1, 0 0.04 0.1, 0 0.04 0.1, 0 0.04 0.1, 0 0.04 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_3_22" toNode="тело_22"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_3_23" key=", .0000, .1429, .4286, .5714, .7143, 1.0000" keyValue=", 0 -0.04 0.1, 0 -0.04 0.1, 0 -0.04 0.1, 0 -0.04 0.1, 0 -0.04 0.1, 0 -0.04 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_3_23" toNode="тело_23"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_6_1_28" key=", .0000, 1.0000" keyValue=", 2.35 0.9 0.4, 2.35 0.9 0.4"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_6_1_28" toNode="тело_28"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_6_1_29" key=", .0000, 1.0000" keyValue=", 2.35 0.9 0.4, 2.39 0.9 0.4"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_6_1_29" toNode="тело_29"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_6_1_30" key=", .0000, 1.0000" keyValue=", 2.35 0.9 0.4, 2.31 0.9 0.4"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_6_1_30" toNode="тело_30"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_6_1_31" key=", .0000, 1.0000" keyValue=", 2.35 1.3 0.4, 2.35 1.3 0.4"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_6_1_31" toNode="тело_31"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_6_2_28" key=", .0000, .1429, .7143, 1.0000" keyValue=", 2.35 0.9 0.4, 2.35 0.9 0.4, 2.35 0.9 0.4, 2.35 0.9 0.4"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_6_2_28" toNode="тело_28"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_6_2_29" key=", .0000, .1429, .7143, 1.0000" keyValue=", 2.39 0.9 0.4, 2.39 0.9 0.4, 2.39 0.9 0.4, 2.39 0.9 0.4"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_6_2_29" toNode="тело_29"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_6_2_30" key=", .0000, .1429, .7143, 1.0000" keyValue=", 2.31 0.9 0.4, 2.31 0.9 0.4, 2.31 0.9 0.4, 2.31 0.9 0.4"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_6_2_30" toNode="тело_30"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_6_2_31" key=", .0000, .1429, .7143, 1.0000" keyValue=", 2.35 1.3 0.4, 2.35 1.1500000000000001 0.4, 2.35 1.1 0.4, 2.35 1.3 0.4"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_6_2_31" toNode="тело_31"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_4_14" key=", .0000, .4000, .6000, 1.0000" keyValue=", 2.35 1 -0.95, 2.35 1 -0.95, 2.35 1 -0.95, 2.35 1 -0.95"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_4_14" toNode="тело_14"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_4_4_15" key=", .0000, .4000, .6000, 1.0000" keyValue=", 0 1 0 0.122171, 0 1 0 1.04718, 0 1 0 1.04718, 0 1 0 0"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_4_4_15" toNode="тело_15"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_4_16" key=", .0000, .4000, .6000, 1.0000" keyValue=", -0.16 0 0.615, -0.16 0 0.615, -0.16 0 0.615, -0.16 0 0.615"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_4_16" toNode="тело_16"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_4_4_17" key=", .0000, .4000, .6000, 1.0000" keyValue=", 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_4_4_17" toNode="тело_17"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_4_18" key=", .0000, .4000, .6000, 1.0000" keyValue=", 0 0.08 0.1, 0 0.08 0.1, 0 0.08 0.1, 0 0.08 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_4_18" toNode="тело_18"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_4_19" key=", .0000, .4000, .6000, 1.0000" keyValue=", 0 -0.08 0.1, 0 -0.08 0.1, 0 -0.08 0.1, 0 -0.08 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_4_19" toNode="тело_19"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_4_20" key=", .0000, .4000, .6000, 1.0000" keyValue=", 0.16 0 0.615, 0.16 0 0.9, 0.16 0 0.9, 0.16 0 0.615"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_4_20" toNode="тело_20"></ROUTE>
+      <OrientationInterpolator DEF="аниматор_ПД_4_4_21" key=", .0000, .4000, .6000, 1.0000" keyValue=", 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077"></OrientationInterpolator>
+      <ROUTE fromField="value_changed" toField="set_rotation" fromNode="аниматор_ПД_4_4_21" toNode="тело_21"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_4_22" key=", .0000, .4000, .6000, 1.0000" keyValue=", 0 0.04 0.1, 0 0.04 0.1, 0 0.08 0.1, 0 0.08 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_4_22" toNode="тело_22"></ROUTE>
+      <PositionInterpolator DEF="аниматор_ПД_4_4_23" key=", .0000, .4000, .6000, 1.0000" keyValue=", 0 -0.04 0.1, 0 -0.04 0.1, 0 -0.08 0.1, 0 -0.08 0.1"></PositionInterpolator>
+      <ROUTE fromField="value_changed" toField="set_translation" fromNode="аниматор_ПД_4_4_23" toNode="тело_23"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_1_1_1" cycleInterval="2"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_1_1_1" toNode="аниматор_ПД_1_1_1"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_3_1_2" cycleInterval="9"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_1_2" toNode="аниматор_ПД_3_1_4"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_1_2" toNode="аниматор_ПД_3_1_5"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_1_2" toNode="аниматор_ПД_3_1_6"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_1_2" toNode="аниматор_ПД_3_1_7"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_1_2" toNode="аниматор_ПД_3_1_8"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_1_2" toNode="аниматор_ПД_3_1_9"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_1_2" toNode="аниматор_ПД_3_1_10"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_1_2" toNode="аниматор_ПД_3_1_11"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_1_2" toNode="аниматор_ПД_3_1_12"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_1_2" toNode="аниматор_ПД_3_1_13"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_2_1_3" cycleInterval="2"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_2_1_3" toNode="аниматор_ПД_2_1_2"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_2_1_3" toNode="аниматор_ПД_2_1_3"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_3_2_4" cycleInterval="1.5"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_2_4" toNode="аниматор_ПД_3_2_4"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_2_4" toNode="аниматор_ПД_3_2_5"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_2_4" toNode="аниматор_ПД_3_2_6"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_2_4" toNode="аниматор_ПД_3_2_7"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_2_4" toNode="аниматор_ПД_3_2_8"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_2_4" toNode="аниматор_ПД_3_2_9"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_2_4" toNode="аниматор_ПД_3_2_10"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_2_4" toNode="аниматор_ПД_3_2_11"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_2_4" toNode="аниматор_ПД_3_2_12"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_2_4" toNode="аниматор_ПД_3_2_13"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_3_3_5" cycleInterval="10"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_3_5" toNode="аниматор_ПД_3_3_4"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_3_5" toNode="аниматор_ПД_3_3_5"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_3_5" toNode="аниматор_ПД_3_3_6"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_3_5" toNode="аниматор_ПД_3_3_7"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_3_5" toNode="аниматор_ПД_3_3_8"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_3_5" toNode="аниматор_ПД_3_3_9"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_3_5" toNode="аниматор_ПД_3_3_10"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_3_5" toNode="аниматор_ПД_3_3_11"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_3_5" toNode="аниматор_ПД_3_3_12"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_3_5" toNode="аниматор_ПД_3_3_13"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_3_4_6" cycleInterval="9"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_4_6" toNode="аниматор_ПД_3_4_4"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_4_6" toNode="аниматор_ПД_3_4_5"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_4_6" toNode="аниматор_ПД_3_4_6"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_4_6" toNode="аниматор_ПД_3_4_7"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_4_6" toNode="аниматор_ПД_3_4_8"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_4_6" toNode="аниматор_ПД_3_4_9"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_4_6" toNode="аниматор_ПД_3_4_10"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_4_6" toNode="аниматор_ПД_3_4_11"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_4_6" toNode="аниматор_ПД_3_4_12"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_3_4_6" toNode="аниматор_ПД_3_4_13"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_5_1_7" cycleInterval="3"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_1_7" toNode="аниматор_ПД_5_1_24"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_1_7" toNode="аниматор_ПД_5_1_25"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_1_7" toNode="аниматор_ПД_5_1_26"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_1_7" toNode="аниматор_ПД_5_1_27"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_5_2_8" cycleInterval="1"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_2_8" toNode="аниматор_ПД_5_2_24"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_2_8" toNode="аниматор_ПД_5_2_25"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_2_8" toNode="аниматор_ПД_5_2_26"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_2_8" toNode="аниматор_ПД_5_2_27"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_5_3_9" cycleInterval="5"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_3_9" toNode="аниматор_ПД_5_3_24"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_3_9" toNode="аниматор_ПД_5_3_25"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_3_9" toNode="аниматор_ПД_5_3_26"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_3_9" toNode="аниматор_ПД_5_3_27"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_5_4_10" cycleInterval="1"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_4_10" toNode="аниматор_ПД_5_4_24"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_4_10" toNode="аниматор_ПД_5_4_25"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_4_10" toNode="аниматор_ПД_5_4_26"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_4_10" toNode="аниматор_ПД_5_4_27"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_5_5_11" cycleInterval="3"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_5_11" toNode="аниматор_ПД_5_5_24"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_5_11" toNode="аниматор_ПД_5_5_25"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_5_11" toNode="аниматор_ПД_5_5_26"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_5_5_11" toNode="аниматор_ПД_5_5_27"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_4_1_12" cycleInterval="3"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_1_12" toNode="аниматор_ПД_4_1_14"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_1_12" toNode="аниматор_ПД_4_1_15"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_1_12" toNode="аниматор_ПД_4_1_16"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_1_12" toNode="аниматор_ПД_4_1_17"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_1_12" toNode="аниматор_ПД_4_1_18"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_1_12" toNode="аниматор_ПД_4_1_19"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_1_12" toNode="аниматор_ПД_4_1_20"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_1_12" toNode="аниматор_ПД_4_1_21"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_1_12" toNode="аниматор_ПД_4_1_22"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_1_12" toNode="аниматор_ПД_4_1_23"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_4_2_13" cycleInterval="7"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_2_13" toNode="аниматор_ПД_4_2_14"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_2_13" toNode="аниматор_ПД_4_2_15"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_2_13" toNode="аниматор_ПД_4_2_16"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_2_13" toNode="аниматор_ПД_4_2_17"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_2_13" toNode="аниматор_ПД_4_2_18"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_2_13" toNode="аниматор_ПД_4_2_19"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_2_13" toNode="аниматор_ПД_4_2_20"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_2_13" toNode="аниматор_ПД_4_2_21"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_2_13" toNode="аниматор_ПД_4_2_22"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_2_13" toNode="аниматор_ПД_4_2_23"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_6_3_14" cycleInterval="1"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_6_3_14" toNode="аниматор_ПД_6_3_28"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_6_3_14" toNode="аниматор_ПД_6_3_29"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_6_3_14" toNode="аниматор_ПД_6_3_30"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_6_3_14" toNode="аниматор_ПД_6_3_31"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_4_3_15" cycleInterval="7"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_3_15" toNode="аниматор_ПД_4_3_14"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_3_15" toNode="аниматор_ПД_4_3_15"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_3_15" toNode="аниматор_ПД_4_3_16"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_3_15" toNode="аниматор_ПД_4_3_17"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_3_15" toNode="аниматор_ПД_4_3_18"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_3_15" toNode="аниматор_ПД_4_3_19"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_3_15" toNode="аниматор_ПД_4_3_20"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_3_15" toNode="аниматор_ПД_4_3_21"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_3_15" toNode="аниматор_ПД_4_3_22"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_3_15" toNode="аниматор_ПД_4_3_23"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_6_1_16" cycleInterval="1"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_6_1_16" toNode="аниматор_ПД_6_1_28"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_6_1_16" toNode="аниматор_ПД_6_1_29"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_6_1_16" toNode="аниматор_ПД_6_1_30"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_6_1_16" toNode="аниматор_ПД_6_1_31"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_6_2_17" cycleInterval="7"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_6_2_17" toNode="аниматор_ПД_6_2_28"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_6_2_17" toNode="аниматор_ПД_6_2_29"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_6_2_17" toNode="аниматор_ПД_6_2_30"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_6_2_17" toNode="аниматор_ПД_6_2_31"></ROUTE>
+      <TimeSensor DEF="таймер_ПД_4_4_18" cycleInterval="5"></TimeSensor>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_4_18" toNode="аниматор_ПД_4_4_14"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_4_18" toNode="аниматор_ПД_4_4_15"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_4_18" toNode="аниматор_ПД_4_4_16"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_4_18" toNode="аниматор_ПД_4_4_17"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_4_18" toNode="аниматор_ПД_4_4_18"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_4_18" toNode="аниматор_ПД_4_4_19"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_4_18" toNode="аниматор_ПД_4_4_20"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_4_18" toNode="аниматор_ПД_4_4_21"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_4_18" toNode="аниматор_ПД_4_4_22"></ROUTE>
+      <ROUTE fromField="fraction_changed" toField="set_fraction" fromNode="таймер_ПД_4_4_18" toNode="аниматор_ПД_4_4_23"></ROUTE><Script DEF="скриптЗапуска"><field accessType="outputOnly" name="старт" type="SFBool"></field><![CDATA[javascript:  function initialize(){  старт=true; }  ]]></Script><TimeTrigger DEF="старт1"></TimeTrigger>
+      <ROUTE fromNode="скриптЗапуска" fromField="старт" toNode="старт1" toField="set_boolean"></ROUTE>
+      <ROUTE fromNode="старт1" fromField="triggerTime" toField="startTime" toNode="таймер_ПД_1_1_1"></ROUTE>
+      <BooleanFilter DEF="фильтр1"></BooleanFilter>
+      <TimeTrigger DEF="переключатель1"></TimeTrigger>
+      <ROUTE fromField="isActive" toField="set_boolean" fromNode="таймер_ПД_1_1_1" toNode="фильтр1"></ROUTE>
+      <ROUTE fromField="inputFalse" toField="set_boolean" fromNode="фильтр1" toNode="переключатель1"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель1" toNode="таймер_ПД_3_1_2"></ROUTE>
+      <BooleanFilter DEF="фильтр2"></BooleanFilter>
+      <TimeTrigger DEF="переключатель2"></TimeTrigger>
+      <ROUTE fromField="isActive" toField="set_boolean" fromNode="таймер_ПД_3_1_2" toNode="фильтр2"></ROUTE>
+      <ROUTE fromField="inputFalse" toField="set_boolean" fromNode="фильтр2" toNode="переключатель2"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель2" toNode="таймер_ПД_2_1_3"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель2" toNode="таймер_ПД_3_2_4"></ROUTE><Script DEF="скриптПереключения3"><field accessType="inputOnly" type="SFBool" name="конец_ПД_2_1"></field><field accessType="inputOnly" type="SFBool" name="конец_ПД_3_2"></field><field accessType="outputOnly" type="SFBool" name="начало_ПД_3_3"></field><![CDATA[javascript: var вкл_ПД_2_1=false, вкл_ПД_3_2=false, начало_ПД_3_3=false; function конец_ПД_2_1(значение){ вкл_ПД_2_1=значение; сложение();}function конец_ПД_3_2(значение){ вкл_ПД_3_2=значение; сложение();}  function сложение(){ if(!вкл_ПД_2_1 && !вкл_ПД_3_2){ начало_ПД_3_3=true;}} ]]></Script><TimeTrigger DEF="переключатель3"></TimeTrigger>
+      <ROUTE fromField="isActive" fromNode="таймер_ПД_2_1_3" toField="конец_ПД_2_1" toNode="скриптПереключения3"></ROUTE>
+      <ROUTE fromField="isActive" fromNode="таймер_ПД_3_2_4" toField="конец_ПД_3_2" toNode="скриптПереключения3"></ROUTE>
+      <ROUTE toField="set_boolean" fromField="начало_ПД_3_3" fromNode="скриптПереключения3" toNode="переключатель3"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель3" toNode="таймер_ПД_3_3_5"></ROUTE>
+      <BooleanFilter DEF="фильтр4"></BooleanFilter>
+      <TimeTrigger DEF="переключатель4"></TimeTrigger>
+      <ROUTE fromField="isActive" toField="set_boolean" fromNode="таймер_ПД_3_3_5" toNode="фильтр4"></ROUTE>
+      <ROUTE fromField="inputFalse" toField="set_boolean" fromNode="фильтр4" toNode="переключатель4"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель4" toNode="таймер_ПД_3_4_6"></ROUTE>
+      <BooleanFilter DEF="фильтр5"></BooleanFilter>
+      <TimeTrigger DEF="переключатель5"></TimeTrigger>
+      <ROUTE fromField="isActive" toField="set_boolean" fromNode="таймер_ПД_3_4_6" toNode="фильтр5"></ROUTE>
+      <ROUTE fromField="inputFalse" toField="set_boolean" fromNode="фильтр5" toNode="переключатель5"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель5" toNode="таймер_ПД_5_1_7"></ROUTE>
+      <BooleanFilter DEF="фильтр6"></BooleanFilter>
+      <TimeTrigger DEF="переключатель6"></TimeTrigger>
+      <ROUTE fromField="isActive" toField="set_boolean" fromNode="таймер_ПД_5_1_7" toNode="фильтр6"></ROUTE>
+      <ROUTE fromField="inputFalse" toField="set_boolean" fromNode="фильтр6" toNode="переключатель6"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель6" toNode="таймер_ПД_5_2_8"></ROUTE>
+      <BooleanFilter DEF="фильтр7"></BooleanFilter>
+      <TimeTrigger DEF="переключатель7"></TimeTrigger>
+      <ROUTE fromField="isActive" toField="set_boolean" fromNode="таймер_ПД_5_2_8" toNode="фильтр7"></ROUTE>
+      <ROUTE fromField="inputFalse" toField="set_boolean" fromNode="фильтр7" toNode="переключатель7"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель7" toNode="таймер_ПД_5_3_9"></ROUTE>
+      <BooleanFilter DEF="фильтр8"></BooleanFilter>
+      <TimeTrigger DEF="переключатель8"></TimeTrigger>
+      <ROUTE fromField="isActive" toField="set_boolean" fromNode="таймер_ПД_5_3_9" toNode="фильтр8"></ROUTE>
+      <ROUTE fromField="inputFalse" toField="set_boolean" fromNode="фильтр8" toNode="переключатель8"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель8" toNode="таймер_ПД_5_4_10"></ROUTE>
+      <BooleanFilter DEF="фильтр9"></BooleanFilter>
+      <TimeTrigger DEF="переключатель9"></TimeTrigger>
+      <ROUTE fromField="isActive" toField="set_boolean" fromNode="таймер_ПД_5_4_10" toNode="фильтр9"></ROUTE>
+      <ROUTE fromField="inputFalse" toField="set_boolean" fromNode="фильтр9" toNode="переключатель9"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель9" toNode="таймер_ПД_5_5_11"></ROUTE>
+      <BooleanFilter DEF="фильтр10"></BooleanFilter>
+      <TimeTrigger DEF="переключатель10"></TimeTrigger>
+      <ROUTE fromField="isActive" toField="set_boolean" fromNode="таймер_ПД_5_5_11" toNode="фильтр10"></ROUTE>
+      <ROUTE fromField="inputFalse" toField="set_boolean" fromNode="фильтр10" toNode="переключатель10"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель10" toNode="таймер_ПД_4_1_12"></ROUTE>
+      <BooleanFilter DEF="фильтр11"></BooleanFilter>
+      <TimeTrigger DEF="переключатель11"></TimeTrigger>
+      <ROUTE fromField="isActive" toField="set_boolean" fromNode="таймер_ПД_4_1_12" toNode="фильтр11"></ROUTE>
+      <ROUTE fromField="inputFalse" toField="set_boolean" fromNode="фильтр11" toNode="переключатель11"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель11" toNode="таймер_ПД_4_2_13"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель11" toNode="таймер_ПД_6_3_14"></ROUTE><Script DEF="скриптПереключения12"><field accessType="inputOnly" type="SFBool" name="конец_ПД_4_2"></field><field accessType="inputOnly" type="SFBool" name="конец_ПД_6_3"></field><field accessType="outputOnly" type="SFBool" name="начало_ПД_4_3"></field><![CDATA[javascript: var вкл_ПД_4_2=false, вкл_ПД_6_3=false, начало_ПД_4_3=false; function конец_ПД_4_2(значение){ вкл_ПД_4_2=значение; сложение();}function конец_ПД_6_3(значение){ вкл_ПД_6_3=значение; сложение();}  function сложение(){ if(!вкл_ПД_4_2 && !вкл_ПД_6_3){ начало_ПД_4_3=true;}} ]]></Script><TimeTrigger DEF="переключатель12"></TimeTrigger>
+      <ROUTE fromField="isActive" fromNode="таймер_ПД_4_2_13" toField="конец_ПД_4_2" toNode="скриптПереключения12"></ROUTE>
+      <ROUTE fromField="isActive" fromNode="таймер_ПД_6_3_14" toField="конец_ПД_6_3" toNode="скриптПереключения12"></ROUTE>
+      <ROUTE toField="set_boolean" fromField="начало_ПД_4_3" fromNode="скриптПереключения12" toNode="переключатель12"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель12" toNode="таймер_ПД_4_3_15"></ROUTE>
+      <BooleanFilter DEF="фильтр13"></BooleanFilter>
+      <TimeTrigger DEF="переключатель13"></TimeTrigger>
+      <ROUTE fromField="isActive" toField="set_boolean" fromNode="таймер_ПД_4_3_15" toNode="фильтр13"></ROUTE>
+      <ROUTE fromField="inputFalse" toField="set_boolean" fromNode="фильтр13" toNode="переключатель13"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель13" toNode="таймер_ПД_6_1_16"></ROUTE>
+      <BooleanFilter DEF="фильтр14"></BooleanFilter>
+      <TimeTrigger DEF="переключатель14"></TimeTrigger>
+      <ROUTE fromField="isActive" toField="set_boolean" fromNode="таймер_ПД_6_1_16" toNode="фильтр14"></ROUTE>
+      <ROUTE fromField="inputFalse" toField="set_boolean" fromNode="фильтр14" toNode="переключатель14"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель14" toNode="таймер_ПД_6_2_17"></ROUTE>
+      <ROUTE fromField="triggerTime" toField="startTime" fromNode="переключатель14" toNode="таймер_ПД_4_4_18"></ROUTE>
+   </Scene>
+</X3D>

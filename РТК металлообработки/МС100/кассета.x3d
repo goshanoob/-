@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <X3D version='3.2'> 
+<Scene> <Background skyColor="1 1 1"/>
+ <Viewpoint position="0 0 1" />
+ 
+ <Transform translation="0 0 0" >
+  <Shape> <Box size="0.15 0.02 0.2" />
+   <Appearance> <Material diffuseColor="0 1 0"/> </Appearance> 
+  </Shape>
+ </Transform> 
+ 
+ <Transform  translation="0.065 0.075 -0.085" >
+  <Shape DEF="стенка"> <Box size="0.02 0.15 0.03" />
+   <Appearance> <Material diffuseColor="0 1 0"/> </Appearance> 
+  </Shape>
+ </Transform> 
+ <Transform translation="-0.065 0.075 -0.085" >
+  <Shape USE="стенка">  </Shape>
+ </Transform> 
+ <Transform translation="0.065 0.075 0.085" >
+  <Shape USE="стенка">   </Shape>
+ </Transform> 
+ <Transform translation="-0.065 0.075 0.085" >
+  <Shape USE="стенка">   </Shape>
+ </Transform> 
+ <Transform translation="-0.065 0.075 0.085" >
+  <Shape USE="стенка">  </Shape>
+ </Transform>
+ <Transform translation="0 0.075 -0.085" >
+  <Shape USE="стенка">   </Shape>
+ </Transform> 
+ <Transform translation="0 0.075 0.085" >
+  <Shape USE="стенка">  </Shape>
+ </Transform>
+ 
+ <Transform  translation="0 0.1425 0.12" >
+  <Shape> <Box size="0.15 0.015 0.015" />
+   <Appearance> <Material diffuseColor="1 1 0"/> </Appearance> 
+  </Shape>
+ </Transform> 
+ <Transform  translation="-0.065 0.1425 0.0925" >
+  <Shape DEF="ручка"> <Box size="0.015 0.015 0.045" />
+   <Appearance> <Material diffuseColor="1 1 0"/> </Appearance> 
+  </Shape>
+ </Transform> 
+ <Transform  translation="0.065 0.1425 0.0925" >
+  <Shape USE="ручка"> </Shape>
+ </Transform> 
+ 
+</Scene> </X3D>

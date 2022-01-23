@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X3D>
+   <Scene>
+      <Background skyColor="1 1 1"/>
+      <Viewpoint position="0 0 4"/>
+      <Transform DEF="тело_0">
+         <Inline url="тело_0.x3d"/>
+         <Transform DEF="тело_1" translation="0,0,0">
+            <Inline url="тело_1.x3d"/>
+            <Transform DEF="тело_2" translation="0.1,0.65,0">
+               <Inline url="тело_2.x3d"/>
+               <Transform DEF="тело_3" translation="0,0.50,0">
+                  <Inline url="тело_3.x3d"/>
+                  <Transform DEF="тело_4" translation="0.78,0.10,0">
+                     <Inline url="тело_4.x3d"/>
+                     <Transform DEF="тело_5" translation="0.25,0,0">
+                        <Inline url="тело_5.x3d"/>
+                        <Transform DEF="тело_6" translation="0,0,0">
+                           <Inline url="тело_6.x3d"/>
+                        </Transform>
+                        <Transform DEF="тело_7" translation="0,0,0">
+                           <Inline url="тело_7.x3d"/>
+                        </Transform>
+                        <Transform DEF="объект1_2" translation="0.15,-0.1,-0.2" rotation="0 0 1 0">
+                           <Inline url="объект1.x3d"/>
+                        </Transform>
+                     </Transform>
+                  </Transform>
+               </Transform>
+            </Transform>
+         </Transform>
+         <Transform DEF="объект1_1" translation="0,0,0.8" rotation="0 0 1 0">
+            <Inline url="объект1.x3d"/>
+         </Transform>
+         <Transform DEF="объект1_3" translation="0,0,-1.25" rotation="0 0 1 0">
+            <Inline url="объект1.x3d"/>
+         </Transform>
+      </Transform>
+      <TimeSensor DEF="таймер" loop="true" cycleInterval="30"/>
+      <OrientationInterpolator DEF="аниматор1"
+                               key=", .00, .13, .20, .27, .33, .40, .47, .53, .60, .67, .73, .80, .87, .93, 1.00"
+                               keyValue=", 0 1 0 0, 0 1 0 0, 0 1 0 0, 0 1 0 -1.57077, 0 1 0 -1.57077, 0 1 0 -1.57077, 0 1 0 -1.57077, 0 1 0 -1.57077, 0 1 0 -1.57077, 0 1 0 1.57077, 0 1 0 1.57077, 0 1 0 1.57077, 0 1 0 1.57077, 0 1 0 1.57077, 0 1 0 0"/>
+      <OrientationInterpolator DEF="аниматор2"
+                               key=", .00, .13, .20, .27, .33, .40, .47, .53, .60, .67, .73, .80, .87, .93, 1.00"
+                               keyValue=", 0 0 1 0, 0 0 1 -1.04718, 0 0 1 -1.04718, 0 0 1 -1.04718, 0 0 1 -1.04718, 0 0 1 -1.04718, 0 0 1 -1.04718, 0 0 1 -1.04718, 0 0 1 0, 0 0 1 -1.04718, 0 0 1 -1.04718, 0 0 1 -1.04718, 0 0 1 0, 0 0 1 0, 0 0 1 0"/>
+      <OrientationInterpolator DEF="аниматор3"
+                               key=", .00, .13, .20, .27, .33, .40, .47, .53, .60, .67, .73, .80, .87, .93, 1.00"
+                               keyValue=", 0 0 1 0, 0 0 1 0, 0 0 1 -0.69812, 0 0 1 -0.69812, 0 0 1 -0.69812, 0 0 1 -0.69812, 0 0 1 -0.52359, 0 0 1 -0.52359, 0 0 1 0, 0 0 1 -0.52359, 0 0 1 -0.52359, 0 0 1 -0.52359, 0 0 1 0, 0 0 1 0, 0 0 1 0"/>
+      <OrientationInterpolator DEF="аниматор4"
+                               key=", .00, .13, .20, .27, .33, .40, .47, .53, .60, .67, .73, .80, .87, .93, 1.00"
+                               keyValue=", 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 0, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 0, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 1.57077, 0 0 1 0, 0 0 1 0"/>
+      <OrientationInterpolator DEF="аниматор5"
+                               key=", .00, .13, .20, .27, .33, .40, .47, .53, .60, .67, .73, .80, .87, .93, 1.00"
+                               keyValue=", 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 0"/>
+      <PositionInterpolator DEF="аниматор6"
+                            key=", .00, .13, .20, .27, .33, .40, .47, .53, .60, .67, .73, .80, .87, .93, 1.00"
+                            keyValue=", 0 0 0, 0 0 0, 0 0 0, 0 0 0, 0 0 0, 0 0 0, 0 0 0.04, 0 0 0.04, 0 0 0.04, 0 0 0.04, 0 0 0.04, 0 0 0, 0 0 0, 0 0 0, 0 0 0"/>
+      <PositionInterpolator DEF="аниматор7"
+                            key=", .00, .13, .20, .27, .33, .40, .47, .53, .60, .67, .73, .80, .87, .93, 1.00"
+                            keyValue=", 0 0 0, 0 0 0, 0 0 0, 0 0 0, 0 0 0, 0 0 0, 0 0 -0.04, 0 0 -0.04, 0 0 -0.04, 0 0 -0.04, 0 0 -0.04, 0 0 0, 0 0 0, 0 0 0, 0 0 0"/>
+      <ROUTE fromField="value_changed"
+             toField="set_rotation"
+             fromNode="аниматор1"
+             toNode="тело_1"/>
+      <ROUTE fromNode="таймер"
+             fromField="fraction_changed"
+             toField="set_fraction"
+             toNode="аниматор1"/>
+      <ROUTE fromField="value_changed"
+             toField="set_rotation"
+             fromNode="аниматор2"
+             toNode="тело_2"/>
+      <ROUTE fromNode="таймер"
+             fromField="fraction_changed"
+             toField="set_fraction"
+             toNode="аниматор2"/>
+      <ROUTE fromField="value_changed"
+             toField="set_rotation"
+             fromNode="аниматор3"
+             toNode="тело_3"/>
+      <ROUTE fromNode="таймер"
+             fromField="fraction_changed"
+             toField="set_fraction"
+             toNode="аниматор3"/>
+      <ROUTE fromField="value_changed"
+             toField="set_rotation"
+             fromNode="аниматор4"
+             toNode="тело_4"/>
+      <ROUTE fromNode="таймер"
+             fromField="fraction_changed"
+             toField="set_fraction"
+             toNode="аниматор4"/>
+      <ROUTE fromField="value_changed"
+             toField="set_rotation"
+             fromNode="аниматор5"
+             toNode="тело_5"/>
+      <ROUTE fromNode="таймер"
+             fromField="fraction_changed"
+             toField="set_fraction"
+             toNode="аниматор5"/>
+      <ROUTE fromField="value_changed"
+             toField="set_translation"
+             fromNode="аниматор6"
+             toNode="тело_6"/>
+      <ROUTE fromNode="таймер"
+             fromField="fraction_changed"
+             toField="set_fraction"
+             toNode="аниматор6"/>
+      <ROUTE fromField="value_changed"
+             toField="set_translation"
+             fromNode="аниматор7"
+             toNode="тело_7"/>
+      <ROUTE fromNode="таймер"
+             fromField="fraction_changed"
+             toField="set_fraction"
+             toNode="аниматор7"/>
+      <BooleanSequencer DEF="видимость1_1"
+                        key="0,.00,.47,1"
+                        keyValue="false,true,false,false"/>
+      <ROUTE fromNode="таймер"
+             fromField="fraction_changed"
+             toField="set_fraction"
+             toNode="видимость1_1"/>
+      <ROUTE fromField="value_changed"
+             toField="render"
+             fromNode="видимость1_1"
+             toNode="объект1_1"/>
+      <BooleanSequencer DEF="видимость1_2"
+                        key="0,.47,.80,1"
+                        keyValue="false,true,false,false"/>
+      <ROUTE fromNode="таймер"
+             fromField="fraction_changed"
+             toField="set_fraction"
+             toNode="видимость1_2"/>
+      <ROUTE fromField="value_changed"
+             toField="render"
+             fromNode="видимость1_2"
+             toNode="объект1_2"/>
+      <BooleanSequencer DEF="видимость1_3"
+                        key="0,.80,1,1"
+                        keyValue="false,true,false,false"/>
+      <ROUTE fromNode="таймер"
+             fromField="fraction_changed"
+             toField="set_fraction"
+             toNode="видимость1_3"/>
+      <ROUTE fromField="value_changed"
+             toField="render"
+             fromNode="видимость1_3"
+             toNode="объект1_3"/>
+   </Scene>
+</X3D>

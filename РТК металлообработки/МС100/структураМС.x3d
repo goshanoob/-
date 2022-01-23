@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<X3D version='3.2'> <Scene> <Background skyColor="1 1 1"/>  
+ <Viewpoint position="0 0 4"/>
+ <Transform DEF="тело_0" translation="0 0 0" rotation="0 1 0 -3.14">
+  <Inline url="тело_0.x3d"/>
+  <Transform DEF="тело_1" translation="0 0.35 0" rotation="0 1 0 0">
+   <Inline url="тело_1.x3d"/>
+   <Transform DEF="тело_2" translation="0.09 0 0" rotation="1 0 0 0">
+    <Inline url="тело_2.x3d"/>
+	<Transform DEF="тело_3" translation="0 -0.18 0" rotation="0 1 0 0">
+     <Inline url="тело_3.x3d"/>
+	 <Transform DEF="кассетаЗаготовки" render="false" translation="0.12 -0.15 0" rotation="0 1 0 -1.57">
+      <Inline url="кассетаЗаготовки.x3d" />
+     </Transform>
+	 <Transform DEF="тело_4" translation="-0.06 0 0" rotation="0 1 0 0">
+      <Inline url="тело_4.x3d"/>
+	 </Transform>
+</Transform></Transform></Transform></Transform>
+
+<EXPORT localDEF="тело_1" AS="тело1"/>
+<EXPORT localDEF="тело_2" AS="тело2"/>
+<EXPORT localDEF="тело_3" AS="тело3"/>
+<EXPORT localDEF="тело_4" AS="тело4"/>
+<EXPORT localDEF="кассетаЗаготовки" AS="кассета_Заготовки"/>
+
+</Scene></X3D>

@@ -1,0 +1,1 @@
+start ..\prog\platform\nw.exe ..\prog\split\ "%CD%"

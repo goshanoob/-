@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<X3D version='3.2'> <Scene> <Background skyColor="1 1 1"/>  
+ <Viewpoint position="0 1 4" /> 
+ <Transform DEF="тело_0" translation="0 0 0" >
+  <Inline url="тело_0.x3d"/>
+  <Transform DEF="тело_1" translation="0 0.45 0" rotation="0 1 0 0">
+   <Inline url="тело_1.x3d"/>
+   <Transform DEF="тело_2" translation="0 0 0" rotation="1 0 0 0">
+    <Inline url="тело_2.x3d"/>
+	<Transform DEF="тело_3" translation="0 0.65 0" rotation="0 1 0 0">
+     <Inline url="тело_3.x3d"/>
+	 <Transform DEF="тело_4" translation="0 0 0" rotation="1 0 0 0">
+      <Inline url="тело_4.x3d"/>
+	  <Transform DEF="тело_5" translation="0 0.65 0" rotation="0 1 0 0">
+       <Inline url="тело_5.x3d"/>
+	   <Transform DEF="тело_6" translation="0 0 0" rotation="1 0 0 0">
+        <Inline url="тело_6.x3d"/>
+		<Transform DEF="тело_7" translation="0 0.18 0" rotation="1 0 0 0">
+         <Inline url="тело_7.x3d"/>
+		</Transform>
+        <Transform DEF="тело_8" translation="0 0.18 0" rotation="1 0 0 0">
+         <Inline url="тело_8.x3d"/>
+        </Transform>
+		<Transform  translation="0 0.18 0" rotation="1 0 0 0">
+         <Inline DEF="заготовка" url="заготовка.x3d" render="true"/>
+        </Transform>
+</Transform></Transform></Transform>
+</Transform></Transform></Transform></Transform>
+
+<EXPORT localDEF="тело_1" AS="тело1"/>
+<EXPORT localDEF="тело_2" AS="тело2"/>
+<EXPORT localDEF="тело_3" AS="тело3"/>
+<EXPORT localDEF="тело_4" AS="тело4"/>
+<EXPORT localDEF="тело_5" AS="тело5"/>
+<EXPORT localDEF="тело_6" AS="тело6"/>
+<EXPORT localDEF="тело_7" AS="тело7"/>
+<EXPORT localDEF="тело_8" AS="тело8"/>
+<EXPORT localDEF="заготовка" AS="Заготовка"/>
+</Scene></X3D>

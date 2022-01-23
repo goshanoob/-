@@ -1,0 +1,1 @@
+start ..\prog\platform\nw.exe ..\prog\redTPMS\ "%CD%"

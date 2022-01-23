@@ -1,0 +1,433 @@
+<X3D version="3.2">
+ <Scene> 
+    <Background skyColor="1 1 1"/>
+    <Viewpoint position="0 0 0"/>
+       <Inline url="XYZ.x3d"/>
+
+       <!-- =================================нулевая точка =============================== -->
+        <Transform translation="0,0,0" rotation="0 0 0 0">  <Shape> <Box size="30,0.01,25"/>
+        <Appearance> <Material diffuseColor="0.4,1,1"/></Appearance></Shape> </Transform>
+ <!-- ======================= основание для манипулятора ==================================== -->
+
+        <Transform translation="0 1 1.5" rotation="0 0 1 1.57"><Shape><Box size="2,3.4,3.4"/>
+       <Appearance> <Material diffuseColor="0,1,0"/> </Appearance></Shape></Transform>
+ <!-- ======================= пульт ==================================== -->
+ <Transform translation="-4.55,1.45,7.85" rotation="0 0 1 1.57"><!-- основание пульта -->
+      <Shape><Box size="2.9,1.9,1.9"/><Appearance><Material diffuseColor="0.6,0.4,1"/> </Appearance></Shape></Transform>
+  <Transform translation="-4.55,2.8,7.85" rotation="1 0 0 0.4"><!-- панель -->
+      <Shape> <Box size="1.9,0.7,1.75"/> <Appearance> <Material diffuseColor="0.6,0.4,1"/></Appearance> </Shape></Transform>
+  <Transform translation="-3.9,3.1,7.35" rotation="1 0 0 0.4"><!--кнопка 1 -->
+      <Shape><Cylinder radius="0.1" height="0.6"/><Appearance><Material diffuseColor="0,1,0"/></Appearance></Shape></Transform>
+  <Transform translation="-4.3,3.1,7.35" rotation="1 0 0 0.4"><!-- кнопка 2 -->
+      <Shape> <Cylinder radius="0.1" height="0.6"/> <Appearance><Material diffuseColor="0,1,0"/> </Appearance></Shape></Transform>
+  <Transform translation="-4.7,3.1,7.35" rotation="1 0 0 0.4"><!-- кнопка 3 -->
+      <Shape>  <Cylinder radius="0.1" height="0.6"/>  <Appearance> <Material diffuseColor="0,1,0"/> </Appearance> </Shape></Transform>
+  <Transform translation="-5.15,3.1,7.35" rotation="1 0 0 0.4"><!-- кнопка 4 -->
+      <Shape> <Cylinder radius="0.1" height="0.6"/><Appearance> <Material diffuseColor="0,1,0"/></Appearance> </Shape> </Transform>
+  <Transform translation="-3.9,2.95,7.75" rotation="1 0 0 0.4"><!-- кнопка 5 -->
+      <Shape> <Cylinder radius="0.1" height="0.6"/> <Appearance> <Material diffuseColor="1,0,0"/> </Appearance> </Shape></Transform>
+  <Transform translation="-4.3,2.95,7.75" rotation="1 0 0 0.4"><!-- кнопка 6 -->
+      <Shape> <Cylinder radius="0.1" height="0.6"/> <Appearance> <Material diffuseColor="1,0,0"/> </Appearance> </Shape></Transform>
+  <Transform translation="-4.7,2.95,7.75" rotation="1 0 0 0.4"><!-- кнопка 7 -->
+      <Shape> <Cylinder radius="0.1" height="0.6"/> <Appearance> <Material diffuseColor="1,0,0"/></Appearance></Shape></Transform>
+  <Transform translation="-5.15,2.95,7.75" rotation="1 0 0 0.4"><!-- кнопка 8 -->
+      <Shape> <Cylinder radius="0.1" height="0.6"/> <Appearance><Material diffuseColor="1,0,0"/> </Appearance> </Shape> </Transform>
+  <Transform translation="-3.9,2.78,8.15" rotation="1 0 0 0.4"><!-- кнопка 9 -->
+      <Shape> <Cylinder radius="0.1" height="0.6"/><Appearance> <Material diffuseColor="0,0,1"/></Appearance> </Shape></Transform>
+  <Transform translation="-4.3,2.78,8.15" rotation="1 0 0 0.4"><!-- кнопка 10 -->
+      <Shape><Cylinder radius="0.1" height="0.6"/> <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>
+  <Transform translation="-4.7,2.78,8.15" rotation="1 0 0 0.4"><!-- кнопка 11 -->
+      <Shape><Cylinder radius="0.1" height="0.6"/> <Appearance> <Material diffuseColor="0,0,1"/></Appearance></Shape> </Transform>
+  <Transform translation="-5.15,2.78,8.15" rotation="1 0 0 0.4"><!-- кнопка 12 -->
+      <Shape><Cylinder radius="0.1" height="0.6"/><Appearance> <Material diffuseColor="0,0,1"/></Appearance> </Shape></Transform>
+  <Transform translation="-5,2.83,8.65" ><!-- кнопка 13 -->
+      <Shape> <Box size="0.7,0.2,0.2"/> <Appearance><Material diffuseColor="1,1,1"/> </Appearance> </Shape></Transform>
+  <Transform translation="-4,2.83,8.65" ><!-- кнопка 14 -->
+      <Shape> <Box size="0.7,0.2,0.2"/><Appearance><Material diffuseColor="1,0,1"/> </Appearance></Shape></Transform>
+ <!-- ======================= магазин ==================================== -->
+  <Transform translation="-4,0.85,3.85" rotation="0 0 1 0"> <!-- стенка 1 -->   
+      <Shape> <Box size="0.5,1.7,2.2"/><Appearance> <Material diffuseColor="0.4,0.4,1"/></Appearance> </Shape></Transform>
+  <Transform translation="-5.2,0.85,2.85" rotation="0 1 0 1.57"><!-- стенка 2 -->
+      <Shape> <Box size="0.5,1.7,2.9"/><Appearance> <Material diffuseColor="0.4,0.4,1"/> </Appearance> </Shape></Transform>
+  <Transform translation="-6.4,0.85,3.85" rotation="0 0 1 0"><!-- стенка 3 -->
+      <Shape><Box size="0.5,1.7,2.2"/><Appearance><Material diffuseColor="0.4,0.4,1"/></Appearance></Shape></Transform>
+  <Transform translation="-5.2,0.85,4.85" rotation="0 1 0 1.57"><!-- стенка 4   -->   
+   <Shape> <Box size="0.5,1.7,2.9"/><Appearance> <Material diffuseColor="0.4,0.4,1"/></Appearance></Shape></Transform>
+
+  <Transform translation="-5.2,0.15,3.85" rotation="0 0 1 1.57"><!-- основание магазина -->
+      <Shape><Box size="0.3,1.9,1.9"/> <Appearance><Material diffuseColor="0.4,0.4,1"/> </Appearance> </Shape></Transform>
+  <Transform translation="-5.2,0.45,3.85" rotation="0 0 1 1.57"><!-- внутренность магазина -->
+      <Shape> <Box size="0.3,1.9,1.9"/> <Appearance><Material diffuseColor="0.6,0.4,1"/> </Appearance></Shape></Transform>
+
+
+<!-- ====================================== токарный станок ======================================= -->
+  <Transform translation="-6.4,1.5 ,0" rotation="0 0 1 1.57"><!--опора -->
+      <Shape> <Box size="3,1.4,3.4"/><Appearance> <Material diffuseColor="0,0,1"/></Appearance></Shape> </Transform>
+
+      <Transform translation="-6.4,3.1,-1" rotation="1 0 0 1.57"><!-- стойка вращающегося вала -->
+      <Shape> <Cylinder radius="0.4" height="0.8"/><Appearance> <Material diffuseColor="1,0,1"/> </Appearance></Shape></Transform>
+  <Transform translation="-6.4,3.22,-0.6" rotation="1 0 0 1.57"><!-- вращающийся вал -->
+      <Shape> <Cylinder radius="0.17" height="0.3"/> <Appearance><Material diffuseColor="0,1,0"/></Appearance></Shape></Transform>
+
+<!-- ====================================== фрезерный станок ======================================= -->
+
+  <Transform translation="-3.2,1.5 ,-4.8" rotation="0 1 0 0.3"><!--опора -->
+      <Shape><Box size="4.5,3,2"/> <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>
+  <Transform translation="-2,3.41 ,-5.1" rotation="0 1 0 0.3"><!-- стойка вращающегося вала -->
+      <Shape><Box size="1.1,1,0.7"/> <Appearance> <Material diffuseColor="1,0,1"/> </Appearance></Shape></Transform>
+  <Transform translation="-2.5,3.23,-4.95" rotation="0 0.26 0.9 1.67  " ><!-- вращающийся вал -->
+      <Shape> <Cylinder radius="0.17" height="0.3"/><Appearance> <Material diffuseColor="0,1,0"/></Appearance></Shape></Transform>
+
+
+    <!-- ====================================== сверлильный станок ======================================= -->
+    <Transform translation="2,1.41,-5" rotation="0 1 0 0"><Shape><Box size="2.5,2.8,2.5"/> <!-- опора -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform> 
+    <Transform translation="2,2.81,-4.9" rotation="1 0 0 0"> <Shape> <Cylinder radius="0.1" height="0.1"/>
+        <Appearance> <Material diffuseColor="1,0,1"/></Appearance></Shape></Transform>    
+
+    <Transform translation="0.958,2.9,-5" rotation="0 1 0 -1.57"> <Shape> <Box size="2.49,5,0.4"/> <!-- стена 1 -->
+      <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape> </Transform>   
+    <Transform translation="3.05,2.9,-5" rotation="0 1 0 -1.57"><Shape> <Box size="2.49,5,0.4"/> <!-- стена 2 -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>   
+    <Transform translation="2,5.46,-5" rotation="0 1 0 0"><Shape> <Box size="2.5,1.25,2.5"/> <!-- потолок -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="3.01,4,-5"   rotation="0 0 1 0.2"><Shape> <Box size="0.4,0.4,2.49"/>  <!-- угол поворота 1 справа -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="2.88,4.4,-5" rotation="0 0 1 0.4"><Shape> <Box size="0.4,0.4,2.49"/>  <!-- угол поворота 2 справа -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="2.7,4.7,-5"  rotation="0 0 1 0.8"><Shape> <Box size="0.4,0.4,2.49"/>  <!-- угол поворота 3 справа -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="2.4,4.9,-5"  rotation="0 0 1 1.2"><Shape> <Box size="0.4,0.4,2.49"/>  <!-- угол поворота 4 справа -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="2,4.95,-5"   rotation="0 0 1 1.6"><Shape> <Box size="0.4,0.4,2.49"/>  <!-- угол поворота середина   ============= -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="1,4,-5"      rotation="0 0 1 -0.2"><Shape> <Box size="0.4,0.4,2.49"/>  <!-- угол поворота 1 слева -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="1.13,4.4,-5" rotation="0 0 1 -0.4"><Shape> <Box size="0.4,0.4,2.49"/>  <!-- угол поворота 2 слева -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="1.31,4.7,-5" rotation="0 0 1 -0.8"><Shape> <Box size="0.4,0.4,2.49"/>  <!-- угол поворота 3 слева -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="1.65,4.9,-5" rotation="0 0 1 -1.2"><Shape> <Box size="0.4,0.4,2.49"/>  <!-- угол поворота 4 слева -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <!-- ====================================== ТВЧ печь ======================================= -->
+    <Transform translation="6,1.54,-1"   rotation="0 1 0 0"><Shape><Box size="2.5,3,2.5"/> <!-- опора -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform> 
+    <Transform translation="6,2.9,0.042" rotation="0 1 0 0"> <Shape> <Box size="2.49,5,0.4"/> <!-- стена 1 -->
+      <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape> </Transform>
+    <Transform translation="6,2.9,-2.05" rotation="0 1 0 0"><Shape> <Box size="2.49,5,0.4"/> <!-- стена 2 -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>    
+    <Transform translation="6,6,-1"      rotation="0 1 0 0"><Shape> <Box size="2.5,1.25,2.5"/> <!-- потолок -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+  <!-- полукруг верх-->
+     <Transform translation="6,4.6,-0"     rotation="1 0 0 -0.2"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 1 справа -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,5,-0.12"     rotation="1 0 0 -0.4"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 2 справа -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,5.32,-0.33"  rotation="1 0 0 -0.8"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 3 справа -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,5.54,-0.7"   rotation="1 0 0 -1.23"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 4 справа -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,5.62,-1"     rotation="1 0 0 1.6"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота середина   ============= -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,4.6,-2"      rotation="1 0 0 0.2"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 1 слева -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,5,-1.88"     rotation="1 0 0 0.4"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 2 слева -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,5.32,-1.67"  rotation="1 0 0 0.8"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 3 слева -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,5.54,-1.3"   rotation="1 0 0 1.23"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 4 слева -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>      
+        <!-- середина с боков -->
+    <Transform translation="6,4.2,0.04"    rotation="1 0 0 1.57"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота середина право  ============= -->
+              <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,4.2,-2.04"   rotation="1 0 0 1.6"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота середина лево  ============= -->
+              <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>          
+  <!-- полукруг низ--> 
+    <Transform translation="6,3.8,-0"      rotation="1 0 0 0.2"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 1  справа  -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,3.4,-0.12"   rotation="1 0 0 0.4"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 2  справа  -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,3.1,-0.33"   rotation="1 0 0 0.8"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 3  справа  -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,2.88,-0.7"   rotation="1 0 0 1.23"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 4 справа -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>  
+    <Transform translation="6,2.83,-1"     rotation="1 0 0 1.6"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота середина   ============= -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>  
+     <Transform translation="6,3.8,-2"     rotation="1 0 0 -0.2"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 1 слева-->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,3.4,-1.88"   rotation="1 0 0 -0.4"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 2 слева -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,3.1,-1.67"   rotation="1 0 0 -0.8"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 3 слева -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>
+    <Transform translation="6,2.88,-1.3"   rotation="1 0 0 -1.23"><Shape> <Box size="2.49, 0.4,0.4"/>  <!-- угол поворота 4 слева -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance> </Shape> </Transform>   
+  <!-- закалочная ванна-->
+   <Transform translation="5.25,0.5,4.5"     rotation="0 1 0 0"><Shape><Box size="0.5,1,0.5"/> <!-- нога 1 право -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>
+   <Transform translation="6.75,0.5,4.5"     rotation="0 1 0 0"><Shape><Box size="0.5,1,0.5"/> <!-- нога 2 право -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>  
+   <Transform translation="5.25,0.5,1.5"     rotation="0 1 0 0"><Shape><Box size="0.5,1,0.5"/> <!-- нога 1 лево -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>
+   <Transform translation="6.75,0.5,1.5"     rotation="0 1 0 0"><Shape><Box size="0.5,1,0.5"/> <!-- нога 2 лево -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform> 
+   <Transform translation="6,1.2,3"        rotation="0 1 0 0"><Shape><Box size="2,0.5,3.5"/> <!-- поддон -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>
+   <Transform translation="6.9,1.7,3"      rotation="0 1 0 0"><Shape><Box size="0.2,0.7,3.5"/> <!-- бортик 1 -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>
+   <Transform translation="5.1,1.7,3"      rotation="0 1 0 0"><Shape><Box size="0.2,0.7,3.5"/> <!-- бортик 2 -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>    
+  <Transform translation="6,1.7,4.649"     rotation="0 1 0 0"><Shape><Box size="2,0.7,0.2"/> <!-- бортик 3 бок право -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>   
+  <Transform translation="6,1.7,1.349"     rotation="0 1 0 0"><Shape><Box size="2,0.7,0.2"/> <!-- бортик 4 бок лево -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>   
+  <!-- <Transform translation="6,1.6,3"        rotation="0 1 0 0"><Shape><Box size="1.8,0.4,3.2"/>   имитация воды 
+        <Appearance><Material diffuseColor="1,1,0"/></Appearance></Shape></Transform>   -->
+  <!-- шлифовальный станок -->  
+  <Transform translation="3.25,1.18,6.75"       rotation="0 1 0 0.3"><Shape><Box size="2.5,2.3,2.5"/> <!-- опора -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>  
+  <Transform translation="3.45,3.18,7.35"       rotation="0 1 0 0.3"><Shape><Box size="2,2.3,0.5"/> <!-- шиток -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>     
+  <Transform translation="3.35,2.8,7"       rotation="0 0.3 1 1.67 "><Shape><Cylinder radius="0.37" height="0.7"/> <!-- точильный камень -->
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <!-- конвейер -->  
+  <Transform translation="-1.8,0.15,6.95"       ><Shape><Box size="0.3,0.3,2"/>  <!--  опора 1 -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>
+  <Transform translation="-1.8,0.8,7.4"      rotation="1 0 0 1.05"  ><Shape><Box size="0.2,0.2,1.6"/> <!-- опора 1 под углом 1-->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>  
+  <Transform translation="-1.8,0.8,6.5"      rotation="1 0 0 -1.05"  ><Shape><Box size="0.2,0.2,1.6"/>  <!--опора 1 под углом 2--> 
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-0.2,0.15,6.95"    ><Shape><Box size="0.3,0.3,2"/> <!-- опора 2-->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-0.2,0.8,7.4"      rotation="1 0 0 1.05"  ><Shape><Box size="0.2,0.2,1.6"/> <!-- опора 2 под углом 1 -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>
+  <Transform translation="-0.2,0.8,6.5"      rotation="1 0 0 -1.05"  ><Shape><Box size="0.2,0.2,1.6"/> <!-- опора 2 под углом 2-->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-1,1.6,6.95"       rotation="0 0 1 1.57"><Shape><Cylinder radius="0.17" height="1.9"/> <!-- середина вала ленты -->
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-1,1.6,6.95"       rotation="0 0 1 1.57"><Shape><Cylinder radius="0.37" height="1.2"/> <!-- вал ленты -->
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+<!-- лента -->
+  <Transform translation="-1,1.212,9.39"      rotation="1 0 0 0" ><Shape><Box size="1.3,0.05,4.9"/> <!-- элемент ленты 1 длинная н -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform> 
+  <Transform translation="-1,1.22,6.9"      rotation="1 0 0 0.2" ><Shape><Box size="1.3,0.05,0.1"/> <!-- элемент ленты 2 -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform> 
+  <Transform translation="-1,1.248,6.81"      rotation="1 0 0 0.4"  ><Shape><Box size="1.3,0.05,0.1"/> <!-- элемент ленты 3 -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform>
+  <Transform translation="-1,1.292,6.7295"      rotation="1 0 0 0.6"  ><Shape><Box size="1.3,0.05,0.1"/> <!-- элемент ленты 4 -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform>
+  <Transform translation="-1,1.354,6.6669"      rotation="1 0 0 0.95"  ><Shape><Box size="1.3,0.05,0.1"/> <!-- элемент ленты 5 -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform>
+  <Transform translation="-1,1.43,6.619"      rotation="1 0 0 1.07"  ><Shape><Box size="1.3,0.05,0.1"/> <!-- элемент ленты 6 -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform>
+  <Transform translation="-1,1.515,6.582"      rotation="1 0 0 1.25"  ><Shape><Box size="1.3,0.05,0.1"/> <!-- элемент ленты 7 -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform>
+  <Transform translation="-1,1.605,6.568"      rotation="1 0 0 1.57"  ><Shape><Box size="1.3,0.05,0.11"/> <!-- элемент ленты 8 середина  -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform> 
+  <Transform translation="-1,1.995,9.39"      rotation="1 0 0 0" ><Shape><Box size="1.3,0.05,4.9"/> <!-- элемент ленты 9 длинная в -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform>  
+  <Transform translation="-1,1.9855,6.897"      rotation="1 0 0 -0.2" ><Shape><Box size="1.3,0.05,0.1"/> <!-- элемент ленты 10 -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform>  
+  <Transform translation="-1,1.958,6.81"      rotation="1 0 0 -0.4"  ><Shape><Box size="1.3,0.05,0.1"/> <!-- элемент ленты 11 -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform>
+  <Transform translation="-1,1.914,6.7295"      rotation="1 0 0 -0.6"  ><Shape><Box size="1.3,0.05,0.1"/> <!-- элемент ленты 12 -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform> 
+  <Transform translation="-1,1.853,6.6669"      rotation="1 0 0 -0.95"  ><Shape><Box size="1.3,0.05,0.1"/> <!-- элемент ленты 13 -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform>
+  <Transform translation="-1,1.775,6.619"      rotation="1 0 0 -1.07"  ><Shape><Box size="1.3,0.05,0.1"/> <!-- элемент ленты 6 -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform>
+  <Transform translation="-1,1.6955,6.583"      rotation="1 0 0 -1.22"  ><Shape><Box size="1.3,0.05,0.1"/> <!-- элемент ленты 7 -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform>  
+  <Transform translation="-1,0.4,11"       ><Shape><Box size="2.5,0.8,2.5"/> <!-- место исчезновения деталей основание -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>  
+  <Transform translation="-1,2,12"       ><Shape><Box size="2.5,3,0.5"/> <!-- место исчезновения деталей задняя стенка -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-0,2,11"       ><Shape><Box size="0.5,3,2.5"/> <!-- место исчезновения деталей правая стенка -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>       
+  <Transform translation="-2,2,11"       ><Shape><Box size="0.5,3,2.5"/> <!-- место исчезновения деталей левая стенка -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>     
+  <Transform translation="-1,3.4,11"       ><Shape><Box size="2.5,0.5,2.5"/> <!-- место исчезновения деталей основание -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>  
+
+ <!-- человек -->
+ <!-- ноги -->
+  <Transform translation="-5,0.15,10.5"   rotation="0 1 0 0"><Shape><Box size="0.8,0.3,1.5"/> <!-- стопа левая -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform> 
+  <Transform translation="-5,0.25,11"       rotation="0 0 0 1.67 "><Shape><Sphere radius="0.225" /> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <Transform translation="-5,0.65,11.02"   rotation="0 1 0 0"><Shape><Box size="0.4,0.6,0.4"/> <!-- голень -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-5,1,11.02"       rotation="0 0 1 1.57"><Shape><Cylinder radius="0.2" height="0.35"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-5,1.5,11.02"   rotation="0 1 0 0"><Shape><Box size="0.4,0.9,0.4"/> <!-- бедро -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-5,2,11"       rotation="0 0 0 1.67 "><Shape><Sphere radius="0.21" /> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+   <Transform translation="-4,0.15,10.5"   rotation="0 1 0 0"><Shape><Box size="0.8,0.3,1.5"/> <!-- стопа правая -->
+        <Appearance><Material diffuseColor="0,0,0"/></Appearance></Shape></Transform>        
+  <Transform translation="-4,0.25,11"       rotation="0 0 0 1.67 "><Shape><Sphere radius="0.225" /> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <Transform translation="-4,0.65,11.02"   rotation="0 1 0 0"><Shape><Box size="0.4,0.6,0.4"/> <!-- голень -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-4,1,11.02"       rotation="0 0 1 1.57"><Shape><Cylinder radius="0.2" height="0.35"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-4,1.5,11.02"   rotation="0 1 0 0"><Shape><Box size="0.4,0.9,0.4"/> <!-- бедро -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-4,2,11"       rotation="0 0 0 1.67 "><Shape><Sphere radius="0.21" /> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <!-- торс -->              
+  <Transform translation="-4.5,3.2,11.02"   rotation="0 1 0 0"><Shape><Box size="1.8,2.3,1"/> 
+        <Appearance><Material diffuseColor="0.4,0.6,0.2"/></Appearance></Shape></Transform> 
+<!-- рука левая -->        
+  <Transform translation="-5.4,4,11"       rotation="0 0 0 1.67 "><Shape><Sphere radius="0.16" /> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <Transform translation="-5.55,3.75,11"   rotation="0 0 1 -0.5"><Shape><Box size="0.25,0.8,0.25"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-5.73,3.4,11"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.1" height="0.23"/> <!-- локоть -->
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>     
+  <Transform translation="-6,2.92,11"   rotation="0 0 1 -0.5"><Shape><Box size="0.25,1,0.25"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-6.225,2.5,11"       rotation="0 0 0 1.67 "><Shape><Sphere radius="0.12" /> <!-- кисть -->
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <Transform translation="-6.26,2.45,11"   rotation="0 0 1 -0.6"><Shape><Box size="0.1,0.25,0.1"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>   
+  <Transform translation="-6.349,2.32,11"   rotation="0 0 1 -0.6"><Shape><Box size="0.1,0.1,0.25"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>
+  <Transform translation="-6.355,2.3,10.85"   rotation="1 0 0 0.95"><Shape><Box size="0.05,0.1,0.05"/> <!-- большой палец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>  
+  <Transform translation="-6.354,2.27,10.81"       rotation="0 0 1 1.57"><Shape><Cylinder radius="0.02" height="0.04"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-6.355,2.243,10.77"   rotation="1 0 0 0.95"><Shape><Box size="0.04,0.07,0.04"/> <!-- конец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-6.4,2.25,10.9"   rotation="0 0 1 -0.6"><Shape><Box size="0.05,0.15,0.05"/> <!-- указат. палец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>  
+  <Transform translation="-6.44,2.19,10.9"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.02" height="0.04"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-6.47,2.15,10.9"   rotation="0 0 1 -0.6"><Shape><Box size="0.04,0.07,0.04"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>
+  <Transform translation="-6.49,2.12,10.9"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.01" height="0.03"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <Transform translation="-6.491,2.118,10.9"   rotation="0 0 1 -0.6"><Shape><Box size="0.02,0.03,0.02"/> <!-- конец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-6.4,2.25,10.96"   rotation="0 0 1 -0.6"><Shape><Box size="0.05,0.15,0.05"/> <!-- средний. палец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-6.44,2.19,10.96"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.02" height="0.04"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-6.47,2.15,10.96"   rotation="0 0 1 -0.6"><Shape><Box size="0.04,0.07,0.04"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>
+  <Transform translation="-6.49,2.12,10.96"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.01" height="0.03"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <Transform translation="-6.496,2.111,10.96"   rotation="0 0 1 -0.6"><Shape><Box size="0.02,0.04,0.02"/> <!-- конец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+ <Transform translation="-6.4,2.25,11.02"   rotation="0 0 1 -0.6"><Shape><Box size="0.05,0.15,0.05"/> <!-- палец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>  
+  <Transform translation="-6.44,2.19,11.02"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.02" height="0.04"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-6.47,2.15,11.02"   rotation="0 0 1 -0.6"><Shape><Box size="0.04,0.07,0.04"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>
+  <Transform translation="-6.49,2.12,11.02"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.01" height="0.03"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <Transform translation="-6.491,2.118,11.02"   rotation="0 0 1 -0.6"><Shape><Box size="0.02,0.03,0.02"/> <!-- конец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+ <Transform translation="-6.37,2.28,11.08"   rotation="0 0 1 -0.6"><Shape><Box size="0.05,0.12,0.05"/> <!-- мизинец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>  
+  <Transform translation="-6.41,2.22,11.08"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.02" height="0.04"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-6.43,2.19,11.08"   rotation="0 0 1 -0.6"><Shape><Box size="0.04,0.06,0.04"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>
+  <Transform translation="-6.45,2.16,11.08"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.01" height="0.03"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <Transform translation="-6.456,2.15,11.08"   rotation="0 0 1 -0.6"><Shape><Box size="0.02,0.03,0.02"/> <!-- конец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+<!-- рука правая -->        
+  <Transform translation="-3.55,4,11"       rotation="0 0 0 1.67 "><Shape><Sphere radius="0.16" /> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <Transform translation="-3.45,3.76,11"   rotation="0 0 1 0.3"><Shape><Box size="0.25,0.8,0.25"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-3.34,3.4,11"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.1" height="0.23"/> <!-- локоть -->
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>     
+  <Transform translation="-3.175,2.87,11"   rotation="0 0 1 0.3"><Shape><Box size="0.25,1,0.25"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-3.027,2.4,11"       rotation="0 0 0 1.67 "><Shape><Sphere radius="0.12" /> <!-- кисть -->
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <Transform translation="-3.015,2.35,11"   rotation="0 0 1 0.3"><Shape><Box size="0.1,0.25,0.1"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>   
+  <Transform translation="-2.975,2.22,11"   rotation="0 0 1 0.3"><Shape><Box size="0.1,0.1,0.25"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>
+  <Transform translation="-2.975,2.2,10.85"   rotation="1 0 0 0.95"><Shape><Box size="0.05,0.1,0.05"/> <!-- большой палец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>  
+  <Transform translation="-2.975,2.17,10.81"       rotation="0 0 1 1.57"><Shape><Cylinder radius="0.02" height="0.04"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-2.975,2.143,10.77"   rotation="1 0 0 0.95"><Shape><Box size="0.04,0.07,0.04"/> <!-- конец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-2.945,2.12,10.9"   rotation="0 0 1 0.3"><Shape><Box size="0.05,0.15,0.05"/> <!-- указат. палец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>  
+  <Transform translation="-2.925,2.05,10.9"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.02" height="0.04"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-2.911,2.005,10.9"   rotation="0 0 1 0.3"><Shape><Box size="0.04,0.07,0.04"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>
+  <Transform translation="-2.9,1.97,10.9"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.01" height="0.03"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <Transform translation="-2.893,1.95,10.9"   rotation="0 0 1 0.3"><Shape><Box size="0.02,0.03,0.02"/> <!-- конец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-2.945,2.12,10.96"   rotation="0 0 1 0.3"><Shape><Box size="0.05,0.15,0.05"/> <!-- средний. палец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-2.925,2.05,10.96"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.02" height="0.04"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-2.911,2.005,10.96"   rotation="0 0 1 0.3"><Shape><Box size="0.04,0.07,0.04"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>
+  <Transform translation="-2.9,1.97,10.96"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.01" height="0.03"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <Transform translation="-2.893,1.945,10.96"   rotation="0 0 1 0.3"><Shape><Box size="0.02,0.04,0.02"/> <!-- конец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+ <Transform translation="-2.945,2.12,11.02"   rotation="0 0 1 0.3"><Shape><Box size="0.05,0.15,0.05"/> <!-- палец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>  
+  <Transform translation="-2.925,2.05,11.02"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.02" height="0.04"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-2.911,2.005,11.02"   rotation="0 0 1 0.3"><Shape><Box size="0.04,0.07,0.04"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>
+  <Transform translation="-2.9,1.97,11.02"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.01" height="0.03"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <Transform translation="-2.893,1.95,11.02"   rotation="0 0 1 0.3"><Shape><Box size="0.02,0.03,0.02"/> <!-- конец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+ <Transform translation="-2.96,2.17,11.08"   rotation="0 0 1 0.3"><Shape><Box size="0.05,0.12,0.05"/> <!-- мизинец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>  
+  <Transform translation="-2.942,2.11,11.08"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.02" height="0.04"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-2.93,2.07,11.08"   rotation="0 0 1 0.3"><Shape><Box size="0.04,0.06,0.04"/> 
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform>
+  <Transform translation="-2.92,2.045,11.08"       rotation="1 0 0 1.57"><Shape><Cylinder radius="0.01" height="0.03"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+  <Transform translation="-2.914,2.025,11.08"   rotation="0 0 1 0.3"><Shape><Box size="0.02,0.03,0.02"/> <!-- конец -->
+        <Appearance><Material diffuseColor="1,11,1"/></Appearance></Shape></Transform> 
+<!-- шея --> 
+  <Transform translation="-4.5,4.4,11.02"       rotation="0 0 0 1.57"><Shape><Cylinder radius="0.3" height="0.35"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-4.5,4.6,11"       rotation="0 0 0 1.67 "><Shape><Sphere radius="0.27" /> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>
+<!-- голова -->
+   <Transform translation="-4.5,5.5,11"       rotation="0 0 0 1.67 "><Shape><Cone Radius="0.1" height="0.3" />  <!-- шляпа -->
+        <Appearance><Material diffuseColor="0.7,0.5,0.1"/></Appearance></Shape></Transform> 
+   <Transform translation="-4.5,5.05,11"       rotation="0 0 0 1.67 "><Shape><Sphere radius="0.5" /><!-- голова --> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+   <Transform translation="-4.5,5.05,10.53"       rotation="0 0 0 1.67 "><Shape><Cone bottomRadius="0.1" height="0.3" /><!-- нос --> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+   <Transform translation="-4.7,5.2,10.6"       rotation="0 0 0 1.67 "><Shape><Sphere radius="0.08" /> <!-- левый глаз -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform> 
+   <Transform translation="-4.3,5.2,10.6"       rotation="0 0 0 1.67 "><Shape><Sphere radius="0.08" /> <!-- правый глаз -->
+        <Appearance><Material diffuseColor="0,0,1"/></Appearance></Shape></Transform>
+  <Transform translation="-4.5,4.8,10.55"       rotation="0 0 1 1.57"><Shape><Cylinder radius="0.03" height="0.1"/> <!-- рот -->
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-4.42,4.812,10.55"       rotation="0 0 1 -1.27"><Shape><Cylinder radius="0.03" height="0.1"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-4.35,4.845,10.55"       rotation="0 0 1 -1"><Shape><Cylinder radius="0.03" height="0.1"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>     
+  <Transform translation="-4.58,4.812,10.55"       rotation="0 0 1 1.27"><Shape><Cylinder radius="0.03" height="0.1"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-4.65,4.845,10.55"       rotation="0 0 1 1"><Shape><Cylinder radius="0.03" height="0.1"/> 
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform> 
+  <Transform translation="-4.73,4.9,10.55"       rotation="0 0 1 0.94 "><Shape><Cone bottomRadius="0.03" height="0.1" />
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>    
+  <Transform translation="-4.27,4.9,10.55"       rotation="0 0 1 -0.94 "><Shape><Cone bottomRadius="0.03" height="0.1" />
+        <Appearance><Material diffuseColor="1,1,1"/></Appearance></Shape></Transform>                                     
+ </Scene>
+</X3D>

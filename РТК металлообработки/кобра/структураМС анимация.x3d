@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<X3D version='3.2'> <Scene> <Background skyColor="1 1 1"/>  
+ <Viewpoint position="0 1.2 4" />
+ <Transform  translation="0 0 0" ><TouchSensor DEF='пуск' description='щелкнуть для запуска'/>
+  <Inline DEF="кобра" url="структураМС.x3d"/> </Transform>
+ <IMPORT inlineDEF="кобра" exportedDEF="тело1" AS="тело_1"/> <IMPORT inlineDEF="кобра" exportedDEF="тело2" AS="тело_2"/>
+ <IMPORT inlineDEF="кобра" exportedDEF="тело3" AS="тело_3"/> <IMPORT inlineDEF="кобра" exportedDEF="тело4" AS="тело_4"/>
+ <IMPORT inlineDEF="кобра" exportedDEF="тело5" AS="тело_5"/> <IMPORT inlineDEF="кобра" exportedDEF="тело6" AS="тело_6"/>
+ <Transform DEF="кассета" translation="1.1 0.5 0" rotation="0 1 0 1.57">
+  <Inline url="кассета.x3d"/>
+  <Transform DEF="заготовка1" translation="-0.0325 0.035 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>  </Transform>
+  <Transform DEF="заготовка2" translation="-0.0325 0.085 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>  </Transform>
+  <Transform DEF="заготовка2" translation="-0.0325 0.135 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>  </Transform>
+  <Transform DEF="заготовка1" translation="0.0325 0.035 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>  </Transform>
+  <Transform DEF="заготовка2" translation="0.0325 0.085 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>  </Transform>
+  <Transform DEF="заготовка2" translation="0.0325 0.135 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>
+  </Transform> </Transform>
+ <TimeSensor DEF='общийТаймер' cycleInterval='14' />
+  <OrientationInterpolator DEF='аниматор1' key="0 0.143 0.286 0.429 0.572 0.715 1" keyValue="0 1 0 0, 0 1 0 1.5, 0 1 0 1.5, 0 1 0 1.5, 0 1 0 1.5, 0 1 0 3.14, 0 1 0 3.14" />
+  <ROUTE fromNode='общийТаймер' fromField='fraction_changed' toNode='аниматор1' toField='set_fraction' />
+  <ROUTE fromNode='аниматор1' fromField='value_changed' toNode='тело_1' toField='set_rotation'/>
+  <OrientationInterpolator DEF='аниматор2' key="0 0.143 0.286 0.429 0.572 0.715 1" keyValue="1 0 0 0, 1 0 0 0, 1 0 0 0.8, 1 0 0 0.8, 1 0 0 0, 1 0 0 0, 1 0 0 0.8" />
+  <ROUTE fromNode='общийТаймер' fromField='fraction_changed' toNode='аниматор2' toField='set_fraction' />
+  <ROUTE fromNode='аниматор2' fromField='value_changed' toNode='тело_2' toField='set_rotation'/>
+  <OrientationInterpolator DEF='аниматор3' key="0 0.143 0.286 0.429 0.572 0.715 1" keyValue="1 0 0 0, 1 0 0 0, 1 0 0 0.8, 1 0 0 0.8, 1 0 0 0.8, 1 0 0 0.8, 1 0 0 0.8" />
+  <ROUTE fromNode='общийТаймер' fromField='fraction_changed' toNode='аниматор3' toField='set_fraction' />
+  <ROUTE fromNode='аниматор3' fromField='value_changed' toNode='тело_4' toField='set_rotation'/>
+  <OrientationInterpolator DEF='аниматор4' key="0 0.143 0.286 0.429 0.572 0.715 1" keyValue="1 0 0 0, 1 0 0 0, 1 0 0 0, 1 0 0 1.57, 1 0 0 1.57, 1 0 0 1.57, 1 0 0 1.57" />
+  <ROUTE fromNode='общийТаймер' fromField='fraction_changed' toNode='аниматор4' toField='set_fraction' />
+  <ROUTE fromNode='аниматор4' fromField='value_changed' toNode='тело_6' toField='set_rotation'/>
+  <ROUTE fromField='touchTime' fromNode='пуск' toField='startTime' toNode='общийТаймер'/>
+</Scene></X3D>

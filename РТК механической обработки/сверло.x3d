@@ -1,0 +1,24 @@
+<X3D version="3.2">
+ <Scene> <background skyColor="1 1 1"/>
+  <Viewpoint position="0 0 0"/>
+   <Inline url="XYZ.x3d"/>
+    <Transform translation="0 0 0" rotation="0 0 0 0" >
+          <Shape>
+          <Appearance DEF="цвет2">
+                <Material diffuseColor='3 1 2'></Material>              
+          </Appearance>
+                  <Cylinder radius="0.075" height="1.35"/>
+        </Shape>             
+ 
+   <Transform translation="0 -1.05 0"  rotation="0 1 0 -0.7">
+          <Shape> 
+          <Appearance DEF="цвет1">
+                <Material diffuseColor='1 1 1'></Material>              
+          </Appearance>
+                 <Cylinder radius="0.0145" height="0.751"/>
+        </Shape>
+  </Transform>        
+  </Transform>
+
+ </Scene>
+</X3D>

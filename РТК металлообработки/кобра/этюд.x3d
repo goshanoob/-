@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <X3D version='3.2'> 
+<Scene> <Background skyColor="1 1 1"/>
+ <Viewpoint position="0 0 1" />
+ 
+  <Transform DEF="кассета" translation="1.1 0.5 0" rotation="0 1 0 1.57">
+  <Inline url="кассета.x3d"/>
+  <Transform DEF="заготовка1" translation="-0.0325 0.035 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>  </Transform>
+  <Transform DEF="заготовка2" translation="-0.0325 0.085 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>  </Transform>
+  <Transform DEF="заготовка2" translation="-0.0325 0.135 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>  </Transform>
+  <Transform DEF="заготовка1" translation="0.0325 0.035 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>  </Transform>
+  <Transform DEF="заготовка2" translation="0.0325 0.085 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>  </Transform>
+  <Transform DEF="заготовка2" translation="0.0325 0.135 0" rotation="0 1 0 0">
+   <Inline url="заготовка.x3d"/>
+  </Transform> </Transform>
+ 
+</Scene> </X3D>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <X3D version='3.2'> 
+<Scene> <Background skyColor="1 1 1"/>
+ <Viewpoint position="0 0 1" />
+
+ <Transform translation="0 -0.29 0" rotation="0 0 1 0">
+  <Shape> <Box size="0.18 0.02 0.08" />
+   <Appearance> <Material diffuseColor="0 1 0"/> </Appearance> 
+  </Shape>
+ </Transform> 
+ <Transform translation="-0.1 -0.14 0" rotation="0 0 1 0">
+  <Shape> <Box size="0.02 0.32 0.08" />
+   <Appearance> <Material diffuseColor="0 1 0"/> </Appearance> 
+  </Shape>
+ </Transform> 
+ <Transform translation="0.1 -0.14 0" rotation="0 0 1 0">
+  <Shape> <Box size="0.02 0.32 0.08" />
+   <Appearance> <Material diffuseColor="0 1 0"/> </Appearance> 
+  </Shape>
+ </Transform> 
+ 
+ <Transform translation="0.09 0 0" rotation="0 0 1 1.57">
+  <Shape> <Cylinder radius="0.01" height="0.04" />
+   <Appearance> <Material diffuseColor="0 1 0"/> </Appearance> 
+  </Shape>
+ </Transform> 
+ <Transform translation="-0.09 0 0" rotation="0 0 1 1.57">
+  <Shape> <Cylinder radius="0.01" height="0.04" />
+   <Appearance> <Material diffuseColor="0 1 0"/> </Appearance> 
+  </Shape>
+ </Transform> 
+ 
+</Scene> </X3D>

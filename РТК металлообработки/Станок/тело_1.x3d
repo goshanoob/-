@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <X3D version='3.2'> 
+<Scene> <Background skyColor="1 1 1"/>
+ <Viewpoint position="0 0 1" />
+
+ <Transform translation="0.1 -0.2 0.41" rotation="0 1 0 0">
+  <Shape> <Box size="0.6 0.8 0.02" />
+   <Appearance> <Material diffuseColor="1 1 0"/><ImageTexture url="gold.jpg"/> </Appearance> 
+  </Shape>
+ </Transform> 
+ <Transform translation="0.1 0.21 0" rotation="0 1 0 0">
+  <Shape> <Box size="0.6 0.02 0.8" />
+   <Appearance> <Material diffuseColor="1 1 0"/> <ImageTexture url="gold.jpg"/> </Appearance> 
+  </Shape>
+ </Transform> 
+
+
+</Scene> </X3D>

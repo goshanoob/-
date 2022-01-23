@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <X3D version='3.2'> 
+<Scene> <Background skyColor="1 1 1"/>
+ <Viewpoint position="0 0 1" />
+ <Transform DEF="пол" translation="0 -0.01 0.15" rotation="0 1 0 0">
+  <Transform DEF='X_Plane' >
+        <Group DEF='Row1'>
+          <Transform>
+            <Shape DEF='GreenSquare'>
+              <Box size='0.25 0.01 0.25'/>
+              <Appearance>
+                <Material diffuseColor='1 1 1' transparency='.125'></Material>
+              </Appearance>
+            </Shape>
+          </Transform>
+          <Transform translation='0.25 0 0'>
+            <Shape DEF='BlueSquare'>
+              <Box size='0.25 0.01 0.25'></Box>
+              <Appearance>
+                <Material diffuseColor='.25 .25 1' transparency='.125'></Material>
+              </Appearance>
+            </Shape>
+          </Transform>
+          <Transform translation='0.5 0 0'>
+            <Shape USE='GreenSquare'></Shape>
+          </Transform>
+		  <Transform translation='1 0 0'>
+            <Shape USE='GreenSquare'></Shape>
+          </Transform>
+		  <Transform translation='1.5 0 0'>
+            <Shape USE='GreenSquare'></Shape>
+          </Transform>
+          <Transform translation='0.75 0 0'>
+            <Shape USE='BlueSquare'></Shape>
+          </Transform>
+		  <Transform translation='1.25 0 0'>
+            <Shape USE='BlueSquare'></Shape>
+          </Transform>
+		  <Transform translation='1.75 0 0'>
+            <Shape USE='BlueSquare'></Shape>
+          </Transform>
+          <Transform translation='-0.25 0 0'>
+            <Shape USE='BlueSquare'></Shape>
+          </Transform>
+          <Transform translation='-0.5 0 0'>
+            <Shape USE='GreenSquare'></Shape>
+          </Transform>
+		  <Transform translation='-1 0 0'>
+            <Shape USE='GreenSquare'></Shape>
+          </Transform>
+
+		  <Transform translation='-1.5 0 0'>
+            <Shape USE='GreenSquare'></Shape>
+          </Transform>
+          <Transform translation='-0.75 0 0'>
+            <Shape USE='BlueSquare'></Shape>
+          </Transform>
+		  <Transform translation='-1.25 0 0'>
+            <Shape USE='BlueSquare'></Shape>
+          </Transform>
+		   <Transform translation='-1.75 0 0'>
+            <Shape USE='BlueSquare'></Shape>
+          </Transform>
+        
+        
+        </Group>
+        <Transform translation='0 0 -0.25'>
+          <Group DEF='Row2'>
+            <Transform>
+              <Shape USE='BlueSquare'></Shape>
+            </Transform>
+            <Transform translation='0.25 0 0'>
+              <Shape USE='GreenSquare'></Shape>
+            </Transform>
+            <Transform translation='0.5 0 0'>
+              <Shape USE='BlueSquare'></Shape>
+            </Transform>
+            <Transform translation='0.75 0 0'>
+              <Shape USE='GreenSquare'></Shape>
+            </Transform>
+			<Transform translation='1.25 0 0'>
+              <Shape USE='GreenSquare'></Shape>
+            </Transform>
+			<Transform translation='1.5 0 0'>
+              <Shape USE='BlueSquare'></Shape>
+            </Transform>
+			<Transform translation='1.75 0 0'>
+              <Shape USE='GreenSquare'></Shape>
+            </Transform>
+            <Transform translation='-0.25 0 0'>
+              <Shape USE='GreenSquare'></Shape>
+            </Transform>
+			<Transform translation='1 0 0'>
+              <Shape USE='BlueSquare'></Shape>
+            </Transform>
+            <Transform translation='-0.5 0 0'>
+              <Shape USE='BlueSquare'></Shape>
+            </Transform>
+            <Transform translation='-0.75 0 0'>
+              <Shape USE='GreenSquare'></Shape>
+            </Transform>
+			<Transform translation='-1.25 0 0'>
+              <Shape USE='GreenSquare'></Shape>
+            </Transform>
+            <Transform translation='-1 0 0'>
+              <Shape USE='BlueSquare'></Shape>
+            </Transform>
+			<Transform translation='-1.5 0 0'>
+              <Shape USE='BlueSquare'></Shape>
+            </Transform>
+			
+			<Transform translation='-1.75 0 0'>
+              <Shape USE='GreenSquare'></Shape>
+            </Transform>
+          </Group>
+        </Transform>
+        <Transform translation='0 0 -0.5'>
+          <Group USE='Row1'></Group>
+        </Transform>
+        <Transform translation='0 0 -0.75'>
+          <Group USE='Row2'></Group>
+        </Transform>
+        <Transform translation='0 0 -1'>
+          <Group USE='Row1'></Group>
+        </Transform>
+        <Transform translation='0 0 0.25'>
+          <Group USE='Row2'></Group>
+        </Transform>
+        <Transform translation='0 0 0.5'>
+          <Group USE='Row1'></Group>
+        </Transform>
+        <Transform translation='0 0 0.75'>
+          <Group USE='Row2'></Group>
+        </Transform>
+	
+		<Transform translation='0 0 1'>
+          <Group USE='Row1'></Group>
+        </Transform>
+		<Transform translation='0 0 -1.25'>
+          <Group USE='Row2'></Group>
+        </Transform>
+		<Transform translation='0 0 -1.5'>
+          <Group USE='Row1'></Group>
+        </Transform>
+		<Transform translation='0 0 -1.75'>
+          <Group USE='Row2'></Group>
+        </Transform>
+      </Transform>
+ </Transform> 
+ <Transform DEF="стол" translation="0 0.13 0.7" rotation="0 1 0 0">
+  <Shape> <Box size="0.6 0.01 0.4" />
+   <Appearance> <Material diffuseColor="1 1 0"/> </Appearance> 
+  </Shape>
+ 
+ 
+  <Transform translation="0.275 -0.065 -0.175" rotation="0 1 0 0">
+  <Shape DEF="ножка" > <Box size="0.05 0.13 0.05" />
+   <Appearance> <Material diffuseColor="1 1 0"/> </Appearance> 
+  </Shape>
+ </Transform> 
+ <Transform translation="0.275 -0.065 0.175" rotation="0 1 0 0">
+  <Shape USE="ножка"></Shape>
+ </Transform>
+ <Transform translation="-0.275 -0.065 0.175" rotation="0 1 0 0">
+  <Shape USE="ножка"></Shape>
+ </Transform>
+ <Transform translation="-0.275 -0.065 -0.125" rotation="0 1 0 0">
+  <Shape USE="ножка"></Shape>
+ </Transform>
+ </Transform> 
+</Scene> </X3D>
